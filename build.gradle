@@ -14,7 +14,7 @@ buildscript {
   apply from: 'thirdparty-lib/config.gradle'
 
   dependencies {
-    classpath 'com.android.tools.build:gradle:3.2.1'
+    classpath externalAndroidBuildGradlePlugin
     classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
     // NOTE: Do not place your application dependencies here; they belong
@@ -35,6 +35,9 @@ allprojects {
   }
   apply plugin: 'idea'
   buildDir = new File(rootDir, "gradle-build/${path.replaceAll(':', '/')}")
+}
+task wrapper(type: Wrapper) {
+  gradleVersion = '4.2.1'
 }
 
 task clean(type: Delete) {
