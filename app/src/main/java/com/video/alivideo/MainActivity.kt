@@ -17,7 +17,7 @@ import android.Manifest.permission.RECORD_AUDIO
 import android.Manifest.permission.BLUETOOTH
 import android.os.Build
 import android.support.v4.app.ActivityCompat
-import com.aliyun.vodplayerview.activity.AliyunPlayerSkinActivity
+
 
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
