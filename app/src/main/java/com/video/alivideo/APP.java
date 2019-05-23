@@ -8,6 +8,9 @@ import android.content.IntentFilter;
 import android.net.ConnectivityManager;
 import android.support.multidex.MultiDex;
 import com.alivc.live.pusher.LogUtil;
+import com.alivc.player.AliVcMediaPlayer;
+import com.alivc.player.VcPlayerLog;
+import com.aliyun.video.common.aliha.AliHaUtils;
 
 public class APP extends Application {
 
@@ -32,6 +35,12 @@ public class APP extends Application {
       LogUtil.disableDebug();
     }
 
+    VcPlayerLog.enableLog();
+    //初始化阿⾥云移动高可⽤SDK接⼊——崩溃分析
+    AliHaUtils.initHa(this, null);
+    //初始化播放器
+    AliVcMediaPlayer.init(getApplicationContext());
+
   }
 
   class ConnectivityChangedReceiver extends BroadcastReceiver {
@@ -40,5 +49,8 @@ public class APP extends Application {
 
     }
   }
+
+
+
 
 }
