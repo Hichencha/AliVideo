@@ -5,6 +5,9 @@ buildscript {
     repositories {
         google()
         jcenter()
+        flatDir {
+            dirs 'src/main/aarLibs'
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.1'
@@ -19,6 +22,11 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven { url 'http://mvnrepo.alibaba-inc.com/mvn/repository'}
+        flatDir {
+            dirs 'src/main/aarLibs'
+            dirs '../alivc-player-lib'
+        }
     }
 }
 

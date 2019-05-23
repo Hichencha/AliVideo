@@ -8,4 +8,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="dialog_animation">
+        <item name="android:windowEnterAnimation">@anim/anim_trans_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/anim_layout_bottom_out</item>
+    </style>
+
+    <style name="DialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
 </resources>

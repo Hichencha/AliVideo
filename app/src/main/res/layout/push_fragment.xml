@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/top_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/exit"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/back"
+            android:scaleType="center"/>
+
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/camera_id"
+            android:layout_marginRight="10dp"
+            android:clickable="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/preview_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="停止预览"/>
+
+        <Button
+            android:id="@+id/push_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="开始推流"/>
+
+        <Button
+            android:id="@+id/opera_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="暂停"/>
+
+        <Button
+            android:id="@+id/restart_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="重新推流"/>
+    </LinearLayout>
+
+</RelativeLayout>

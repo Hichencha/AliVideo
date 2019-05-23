@@ -1,3 +1,39 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ExtraTranslation">
     <string name="app_name">AliVideo</string>
+    <string name="start_button">开始推流</string>
+    <string name="pause_button">暂停</string>
+    <string name="resume_button">恢复</string>
+    <string name="stop_button">停止推流</string>
+    <string name="repush_button">重新推流</string>
+    <string name="start_preview">开始预览</string>
+    <string name="stop_preview">停止预览</string>
+    <string name="start_push">开始推流</string>
+    <string name="stop_push">停止推流</string>
+    <string name="pause_push">暂停</string>
+    <string name="resume_push">恢复</string>
+    <string name="network_poor">网络差，请退出或者重连</string>
+    <string name="network_recovery">网络恢复</string>
+    <string name="reconnect_start">重连开始</string>
+    <string name="reconnect_fail">重连失败</string>
+    <string name="connect_fail">连接失败</string>
+    <string name="send_message">发送消息</string>
+    <string name="reconnect_success">重连成功</string>
+    <string name="senddata_timeout">发送数据超时</string>
+    <string name="restart_success">重启成功</string>
+    <string name="drop_frame">丢帧</string>
+    <string name="system_error">系统错误：</string>
+    <string name="sdk_error">SDK错误：</string>
+    <string name="adjust_bitrate">调整码率</string>
+    <string name="adjust_fps">调整帧率</string>
+    <string name="first_frame">首帧渲染</string>
+    <string name="start_preview_button">开始预览</string>
+    <string name="stop_preview_button">停止预览</string>
+
+    <string name="no_camera_permission">没有权限使用摄像头，请开启摄像头权限</string>
+    <string name="no_record_bluetooth_permission">没有权限使用蓝牙，请开启蓝牙权限</string>
+    <string name="no_record_audio_permission">没有权限使用录音，请开启录音权限</string>
+    <string name="no_read_phone_state_permission">没有读取用户数据的权限，请开启该权限</string>
+    <string name="no_write_external_storage_permission">没有文件写权限，请开启该权限</string>
+    <string name="no_read_external_storage_permission">没有文件读权限，请开启该权限</string>
 </resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/url_editor"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_rect_gray"
+        android:hint="设置推流地址"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="35dp"
+        android:inputType="text"
+        android:textColorHint="@color/darker_gray"
+        android:textSize="18dp"
+        android:text="rtmp://testpush.rhrsh.com/app001/stream001?auth_key=1558586249-0-0-235e0b06bc6a2358e374d02011215ebe"/>
+
+    <LinearLayout
+        android:id="@+id/beginPublish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/url_editor"
+        android:background="@drawable/shape_rect_blue"
+        android:gravity="center"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp">
+
+        <TextView
+            android:id="@+id/pushStatusTex"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            android:text="开始推流"
+            android:maxLines="2"
+            android:gravity="center"
+            android:ellipsize="end"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
