@@ -5,16 +5,14 @@ buildscript {
   repositories {
     google()
     jcenter()
-    maven { url "http://maven.aliyun.com/nexus/content/repositories/releases" }
-    flatDir {
-      dirs 'src/main/aarLibs'
-    }
+//    maven { url "http://maven.aliyun.com/nexus/content/repositories/releases" }
+//    flatDir {
+//      dirs 'src/main/aarLibs'
+//    }
   }
 
-  apply from: 'thirdparty-lib/config.gradle'
-
   dependencies {
-    classpath externalAndroidBuildGradlePlugin
+    classpath 'com.android.tools.build:gradle:3.1.4'
     classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
     // NOTE: Do not place your application dependencies here; they belong
@@ -28,17 +26,13 @@ allprojects {
     jcenter()
     maven { url "https://jitpack.io" }
     maven { url 'http://mvnrepo.alibaba-inc.com/mvn/repository' }
-    flatDir {
-      dirs 'src/main/aarLibs'
-      dirs '../alivc-player-lib'
-    }
+//    flatDir {
+//      dirs 'src/main/aarLibs'
+//      dirs '../alivc-player-lib'
+//    }
   }
-  apply plugin: 'idea'
-  buildDir = new File(rootDir, "gradle-build/${path.replaceAll(':', '/')}")
 }
-task wrapper(type: Wrapper) {
-  gradleVersion = '4.2.1'
-}
+
 
 task clean(type: Delete) {
   delete rootProject.buildDir

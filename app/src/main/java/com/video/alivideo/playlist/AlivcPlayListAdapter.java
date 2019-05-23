@@ -23,10 +23,10 @@ import java.util.ArrayList;
  */
 
 public class AlivcPlayListAdapter extends RecyclerView.Adapter<AlivcPlayListAdapter.ViewHolder>{
-    ArrayList<Video> videoLists;
+    ArrayList<AlivcVideoInfo.Video> videoLists;
     WeakReference<Context> context;
 
-    public AlivcPlayListAdapter(Context context,ArrayList<Video> videoLists) {
+    public AlivcPlayListAdapter(Context context,ArrayList<AlivcVideoInfo.Video> videoLists) {
         this.context = new WeakReference<Context>(context);
         this.videoLists = videoLists;
 
@@ -56,7 +56,7 @@ public class AlivcPlayListAdapter extends RecyclerView.Adapter<AlivcPlayListAdap
     @Override
     public void onBindViewHolder(ViewHolder holder, final int position) {
         if (videoLists.size() > 0) {
-            Video video = videoLists.get(position);
+            AlivcVideoInfo.Video video = videoLists.get(position);
             if (video != null) {
                 holder.title.setText(video.getTitle());
                 double dTime = Double.parseDouble(video.getDuration().toString());

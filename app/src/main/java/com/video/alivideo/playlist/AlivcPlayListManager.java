@@ -1,9 +1,12 @@
 package com.video.alivideo.playlist;
 
 
-import android.telecom.Call;
 import com.google.gson.Gson;
 import com.video.alivideo.playlist.vod.core.AliyunVodParam;
+import okhttp3.Callback;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
 
 import java.io.IOException;
 import java.lang.reflect.Type;
@@ -47,12 +50,12 @@ public class AlivcPlayListManager {
         client.newCall(request).enqueue(new Callback() {
 
             @Override
-            public void onFailure(Call call, IOException e) {
+            public void onFailure(okhttp3.Call call, IOException e) {
 
             }
 
             @Override
-            public void onResponse(Call call, Response response) throws IOException {
+            public void onResponse(okhttp3.Call call, Response response) throws IOException {
                 String body = response.body().string();
 
                 AlivcVideoInfo alivcVideoInfo = new Gson().fromJson(body,AlivcVideoInfo.class);
@@ -62,6 +65,8 @@ public class AlivcPlayListManager {
                     playListListener.onPlayList(response.code(), videoList.getVideo());
                 }
             }
+
+
         });
     }
 
