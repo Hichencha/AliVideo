@@ -1,0 +1,636 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:2:1-52:12
+MERGED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-36:12
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:multidex:1.0.2] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/multidex-1.0.2.aar/13f5beae54aaa96034611d555712537f/AndroidManifest.xml:17:1-22:12
+MERGED from [:zxing] /Users/xiyuan/AliVideo/gradle-build/zxing/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6c16bf5c53cb996ec52752c39a6a966a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/fd15b6ad6e25712eb29aa579e15fbd45/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/52c85646453399f153edcd3af9bfd5e5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.2] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/oss-android-sdk-2.9.2.aar/21590bd7da760fe6fb979b7cef009492/AndroidManifest.xml:2:1-22:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:17:1-72:12
+MERGED from [com.aliyun.ams:alicloud-android-ha-adapter:1.1.0.6.2-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-adapter-1.1.0.6.2-open.aar/b227146863229c862e20e01b00ca7d79/AndroidManifest.xml:2:1-19:12
+MERGED from [com.aliyun.ams:alicloud-android-ha-ut-analytics:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-ut-analytics-1.1.0.1-open.aar/c4fb3699188ae8d8c1a8238cf7f42be6/AndroidManifest.xml:2:1-23:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/glide-4.8.0.aar/133d51ddf73fda7072251463a4ead9a3/AndroidManifest.xml:2:1-12:12
+MERGED from [:Aliyunplayer:AlivcPlayer] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AlivcPlayer-3.4.9.aar/e74bae1d37b57ddebf5a7b8ae53e0ad3/AndroidManifest.xml:2:1-14:12
+MERGED from [:Aliyunplayer:AlivcReporter] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AlivcReporter-1.2.aar/fb497b06ee8527cdc839c4763b71476d/AndroidManifest.xml:2:1-17:12
+MERGED from [:Aliyunplayer:AlivcVodPlayer] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AliyunVodPlayer-3.4.9.aar/047b43d0178486eaeff33c3b7004e7d8/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d2866c57f3f7d4c8151f6822fb0dc6df/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4e50852860fa9b9cf4fa72717ba1798d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/415a4e20f2d5180be146943c0e648749/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/10163a064016f08bf60e9270a6f8f259/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/04e1d66ce7459ce02e1f14dc7c84bb3e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/bba3a800d9cb02e32b98e44b3776b874/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/loader-28.0.0.aar/d473c964dc484c506b2d64b3ff3c36b8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/86d20dae8f29bb06c111b690dfc10b36/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/51a8611ea8164d7bb0f9b4b8c874de34/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/1270b08a8d0c9850b46af22ab7200a76/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/169c556ba91790901a44d52031dd9cf0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/customview-28.0.0.aar/d6d5eba83199a4e197c78bf69c70df8b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/2cd518015671ce8e777cf0f22c9c367a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c7d3e70dd1d5011ea67c295bb1ab3967/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7168c4c719c7f797170ee3a1cde25315/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d9e6a01a80dc33a275bfddcb602f1938/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d79542bcdd439aa6cdd5fc5eca79fe84/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0120c5ab33798535eab1257383593775/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a348d3f8c9d3d9d9048b1dfe60557035/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/edef4b7dddb50c564c958dd96933bc7d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/livedata-1.1.1.aar/b4cf9bf74ffee8390491a621021f01b6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8c487ce014f815f357c362f86a8f5f06/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a75fe72493efc02ed8d416011f2d0ca9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/eb169297cfe871aaff0cf27750177fe0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/8edcd86911a1b85e792a4ba6ca57a4c6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/print-28.0.0.aar/8582a5b10de8c28840eb363ed2ae431f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-analyzer-1.6.1.aar/6fdc24badf586f72c5d3482d528cf5cd/AndroidManifest.xml:17:1-24:12
+MERGED from [com.aliyun.ams:alicloud-android-ha-core:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-core-1.1.0.6.1-open.aar/c2fe8d3a4e4b772beadb934af82333b2/AndroidManifest.xml:2:1-17:12
+MERGED from [com.aliyun.ams:alicloud-android-ha-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-protocol-1.1.0.6-open.aar/650a766098f80e7d0537f375d0c686b2/AndroidManifest.xml:2:1-17:12
+MERGED from [com.aliyun.ams:alicloud-android-ha-watch:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-watch-1.1.0.6.1-open.aar/de46fa21a8aea38093b2b89119118025/AndroidManifest.xml:2:1-21:12
+MERGED from [com.aliyun.ams:alicloud-android-ha-bizerrorreporter:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-bizerrorreporter-1.1.0.6.1-open.aar/c78aa7be6026afe1ebfa83b45d262c7a/AndroidManifest.xml:2:1-17:12
+MERGED from [com.aliyun.ams:alicloud-android-ha-crashreporter:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-crashreporter-1.1.0.1-open.aar/9e37b175f379c772ab69134895f5b06f/AndroidManifest.xml:2:1-19:12
+MERGED from [com.aliyun.ams:alicloud-android-ha-telescopebase:1.1.0-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-telescopebase-1.1.0-open.aar/f9a3a43b8ca3e61a88acd9780ae0a7e1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.aliyun.ams:alicloud-android-ha-telescopesdk:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-telescopesdk-1.1.0.1-open.aar/a147d99a66ad831c93a403ef3a916255/AndroidManifest.xml:2:1-20:12
+MERGED from [com.aliyun.ams:alicloud-android-ha-onlinemonitor:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-onlinemonitor-1.1.0.1-open.aar/0641f59e761f2da677a25de026439bdf/AndroidManifest.xml:2:1-13:12
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-1.1.0.6.1-open.aar/9c56e7dab05c3b35a3d0170e2a48a06c/AndroidManifest.xml:2:1-17:12
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-native:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-native-1.1.0.6-open.aar/e19eb45396dcfa4c8ac11447230bb526/AndroidManifest.xml:2:1-9:12
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-protocol-1.1.0.6-open.aar/8009daa2a20f8b50dd10ba401fe16a64/AndroidManifest.xml:2:1-17:12
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-uploader-oss:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-uploader-oss-1.1.0.6.1-open.aar/dc2049b012c9eaed0c5db513825c6dc0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-message-rpc:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-message-rpc-1.1.0.6.1-open.aar/ffdceafde4833ab03921f0137ae15c15/AndroidManifest.xml:2:1-19:12
+MERGED from [com.aliyun.ams:alicloud-android-ha-tbrest:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tbrest-1.1.0.6-open.aar/614394c72f901ffdf3472e12156f26b0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/62ea68978d8ddee8391558cabe108caf/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:2:1-52:12
+	package
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:4:5-33
+		INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:2:1-52:12
+		INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:2:1-52:12
+		INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:6:5-66
+MERGED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-67
+MERGED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-67
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:10:5-67
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:10:5-67
+MERGED from [:zxing] /Users/xiyuan/AliVideo/gradle-build/zxing/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
+MERGED from [:zxing] /Users/xiyuan/AliVideo/gradle-build/zxing/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.2] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/oss-android-sdk-2.9.2.aar/21590bd7da760fe6fb979b7cef009492/AndroidManifest.xml:11:5-67
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.2] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/oss-android-sdk-2.9.2.aar/21590bd7da760fe6fb979b7cef009492/AndroidManifest.xml:11:5-67
+MERGED from [com.aliyun.ams:alicloud-android-ha-adapter:1.1.0.6.2-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-adapter-1.1.0.6.2-open.aar/b227146863229c862e20e01b00ca7d79/AndroidManifest.xml:13:5-14:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-adapter:1.1.0.6.2-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-adapter-1.1.0.6.2-open.aar/b227146863229c862e20e01b00ca7d79/AndroidManifest.xml:13:5-14:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-ut-analytics:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-ut-analytics-1.1.0.1-open.aar/c4fb3699188ae8d8c1a8238cf7f42be6/AndroidManifest.xml:11:5-12:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-ut-analytics:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-ut-analytics-1.1.0.1-open.aar/c4fb3699188ae8d8c1a8238cf7f42be6/AndroidManifest.xml:11:5-12:23
+MERGED from [:Aliyunplayer:AlivcReporter] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AlivcReporter-1.2.aar/fb497b06ee8527cdc839c4763b71476d/AndroidManifest.xml:12:5-67
+MERGED from [:Aliyunplayer:AlivcReporter] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AlivcReporter-1.2.aar/fb497b06ee8527cdc839c4763b71476d/AndroidManifest.xml:12:5-67
+MERGED from [com.aliyun.ams:alicloud-android-ha-core:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-core-1.1.0.6.1-open.aar/c2fe8d3a4e4b772beadb934af82333b2/AndroidManifest.xml:11:5-12:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-core:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-core-1.1.0.6.1-open.aar/c2fe8d3a4e4b772beadb934af82333b2/AndroidManifest.xml:11:5-12:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-protocol-1.1.0.6-open.aar/650a766098f80e7d0537f375d0c686b2/AndroidManifest.xml:11:5-12:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-protocol-1.1.0.6-open.aar/650a766098f80e7d0537f375d0c686b2/AndroidManifest.xml:11:5-12:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-watch:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-watch-1.1.0.6.1-open.aar/de46fa21a8aea38093b2b89119118025/AndroidManifest.xml:13:5-14:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-watch:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-watch-1.1.0.6.1-open.aar/de46fa21a8aea38093b2b89119118025/AndroidManifest.xml:13:5-14:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-bizerrorreporter:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-bizerrorreporter-1.1.0.6.1-open.aar/c78aa7be6026afe1ebfa83b45d262c7a/AndroidManifest.xml:11:5-12:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-bizerrorreporter:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-bizerrorreporter-1.1.0.6.1-open.aar/c78aa7be6026afe1ebfa83b45d262c7a/AndroidManifest.xml:11:5-12:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-crashreporter:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-crashreporter-1.1.0.1-open.aar/9e37b175f379c772ab69134895f5b06f/AndroidManifest.xml:11:5-12:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-crashreporter:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-crashreporter-1.1.0.1-open.aar/9e37b175f379c772ab69134895f5b06f/AndroidManifest.xml:11:5-12:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-1.1.0.6.1-open.aar/9c56e7dab05c3b35a3d0170e2a48a06c/AndroidManifest.xml:11:5-12:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-1.1.0.6.1-open.aar/9c56e7dab05c3b35a3d0170e2a48a06c/AndroidManifest.xml:11:5-12:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-protocol-1.1.0.6-open.aar/8009daa2a20f8b50dd10ba401fe16a64/AndroidManifest.xml:11:5-12:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-protocol-1.1.0.6-open.aar/8009daa2a20f8b50dd10ba401fe16a64/AndroidManifest.xml:11:5-12:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-uploader-oss:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-uploader-oss-1.1.0.6.1-open.aar/dc2049b012c9eaed0c5db513825c6dc0/AndroidManifest.xml:13:5-14:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-uploader-oss:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-uploader-oss-1.1.0.6.1-open.aar/dc2049b012c9eaed0c5db513825c6dc0/AndroidManifest.xml:13:5-14:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-message-rpc:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-message-rpc-1.1.0.6.1-open.aar/ffdceafde4833ab03921f0137ae15c15/AndroidManifest.xml:13:5-14:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-message-rpc:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-message-rpc-1.1.0.6.1-open.aar/ffdceafde4833ab03921f0137ae15c15/AndroidManifest.xml:13:5-14:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-tbrest:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tbrest-1.1.0.6-open.aar/614394c72f901ffdf3472e12156f26b0/AndroidManifest.xml:11:5-12:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-tbrest:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tbrest-1.1.0.6-open.aar/614394c72f901ffdf3472e12156f26b0/AndroidManifest.xml:11:5-12:23
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.REORDER_TASKS
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:7:22-69
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:8:5-65
+MERGED from [:zxing] /Users/xiyuan/AliVideo/gradle-build/zxing/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-66
+MERGED from [:zxing] /Users/xiyuan/AliVideo/gradle-build/zxing/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:8:22-63
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:9:5-70
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:18:5-71
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:18:5-71
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:9:22-68
+uses-permission#android.permission.CAMERA
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:10:5-12:70
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:17:5-65
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:17:5-65
+MERGED from [:zxing] /Users/xiyuan/AliVideo/gradle-build/zxing/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-65
+MERGED from [:zxing] /Users/xiyuan/AliVideo/gradle-build/zxing/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-65
+	tools:ignore
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:12:9-68
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:11:9-49
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:13:5-78
+MERGED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-79
+MERGED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-79
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-79
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-79
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.2] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/oss-android-sdk-2.9.2.aar/21590bd7da760fe6fb979b7cef009492/AndroidManifest.xml:12:5-79
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.2] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/oss-android-sdk-2.9.2.aar/21590bd7da760fe6fb979b7cef009492/AndroidManifest.xml:12:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-adapter:1.1.0.6.2-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-adapter-1.1.0.6.2-open.aar/b227146863229c862e20e01b00ca7d79/AndroidManifest.xml:16:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-adapter:1.1.0.6.2-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-adapter-1.1.0.6.2-open.aar/b227146863229c862e20e01b00ca7d79/AndroidManifest.xml:16:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-ut-analytics:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-ut-analytics-1.1.0.1-open.aar/c4fb3699188ae8d8c1a8238cf7f42be6/AndroidManifest.xml:21:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-ut-analytics:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-ut-analytics-1.1.0.1-open.aar/c4fb3699188ae8d8c1a8238cf7f42be6/AndroidManifest.xml:21:5-79
+MERGED from [:Aliyunplayer:AlivcReporter] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AlivcReporter-1.2.aar/fb497b06ee8527cdc839c4763b71476d/AndroidManifest.xml:11:5-79
+MERGED from [:Aliyunplayer:AlivcReporter] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AlivcReporter-1.2.aar/fb497b06ee8527cdc839c4763b71476d/AndroidManifest.xml:11:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-core:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-core-1.1.0.6.1-open.aar/c2fe8d3a4e4b772beadb934af82333b2/AndroidManifest.xml:14:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-core:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-core-1.1.0.6.1-open.aar/c2fe8d3a4e4b772beadb934af82333b2/AndroidManifest.xml:14:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-protocol-1.1.0.6-open.aar/650a766098f80e7d0537f375d0c686b2/AndroidManifest.xml:14:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-protocol-1.1.0.6-open.aar/650a766098f80e7d0537f375d0c686b2/AndroidManifest.xml:14:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-watch:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-watch-1.1.0.6.1-open.aar/de46fa21a8aea38093b2b89119118025/AndroidManifest.xml:16:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-watch:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-watch-1.1.0.6.1-open.aar/de46fa21a8aea38093b2b89119118025/AndroidManifest.xml:16:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-bizerrorreporter:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-bizerrorreporter-1.1.0.6.1-open.aar/c78aa7be6026afe1ebfa83b45d262c7a/AndroidManifest.xml:14:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-bizerrorreporter:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-bizerrorreporter-1.1.0.6.1-open.aar/c78aa7be6026afe1ebfa83b45d262c7a/AndroidManifest.xml:14:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-crashreporter:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-crashreporter-1.1.0.1-open.aar/9e37b175f379c772ab69134895f5b06f/AndroidManifest.xml:14:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-crashreporter:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-crashreporter-1.1.0.1-open.aar/9e37b175f379c772ab69134895f5b06f/AndroidManifest.xml:14:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-1.1.0.6.1-open.aar/9c56e7dab05c3b35a3d0170e2a48a06c/AndroidManifest.xml:14:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-1.1.0.6.1-open.aar/9c56e7dab05c3b35a3d0170e2a48a06c/AndroidManifest.xml:14:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-protocol-1.1.0.6-open.aar/8009daa2a20f8b50dd10ba401fe16a64/AndroidManifest.xml:14:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-protocol-1.1.0.6-open.aar/8009daa2a20f8b50dd10ba401fe16a64/AndroidManifest.xml:14:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-uploader-oss:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-uploader-oss-1.1.0.6.1-open.aar/dc2049b012c9eaed0c5db513825c6dc0/AndroidManifest.xml:16:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-uploader-oss:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-uploader-oss-1.1.0.6.1-open.aar/dc2049b012c9eaed0c5db513825c6dc0/AndroidManifest.xml:16:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-message-rpc:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-message-rpc-1.1.0.6.1-open.aar/ffdceafde4833ab03921f0137ae15c15/AndroidManifest.xml:16:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-message-rpc:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-message-rpc-1.1.0.6.1-open.aar/ffdceafde4833ab03921f0137ae15c15/AndroidManifest.xml:16:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-tbrest:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tbrest-1.1.0.6-open.aar/614394c72f901ffdf3472e12156f26b0/AndroidManifest.xml:14:5-79
+MERGED from [com.aliyun.ams:alicloud-android-ha-tbrest:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tbrest-1.1.0.6-open.aar/614394c72f901ffdf3472e12156f26b0/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:15:5-80
+MERGED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-81
+MERGED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-81
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-81
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-81
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.2] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/oss-android-sdk-2.9.2.aar/21590bd7da760fe6fb979b7cef009492/AndroidManifest.xml:14:5-81
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.2] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/oss-android-sdk-2.9.2.aar/21590bd7da760fe6fb979b7cef009492/AndroidManifest.xml:14:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:24:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:24:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-adapter:1.1.0.6.2-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-adapter-1.1.0.6.2-open.aar/b227146863229c862e20e01b00ca7d79/AndroidManifest.xml:17:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-adapter:1.1.0.6.2-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-adapter-1.1.0.6.2-open.aar/b227146863229c862e20e01b00ca7d79/AndroidManifest.xml:17:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-ut-analytics:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-ut-analytics-1.1.0.1-open.aar/c4fb3699188ae8d8c1a8238cf7f42be6/AndroidManifest.xml:16:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-ut-analytics:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-ut-analytics-1.1.0.1-open.aar/c4fb3699188ae8d8c1a8238cf7f42be6/AndroidManifest.xml:16:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-core:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-core-1.1.0.6.1-open.aar/c2fe8d3a4e4b772beadb934af82333b2/AndroidManifest.xml:15:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-core:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-core-1.1.0.6.1-open.aar/c2fe8d3a4e4b772beadb934af82333b2/AndroidManifest.xml:15:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-protocol-1.1.0.6-open.aar/650a766098f80e7d0537f375d0c686b2/AndroidManifest.xml:15:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-protocol-1.1.0.6-open.aar/650a766098f80e7d0537f375d0c686b2/AndroidManifest.xml:15:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-watch:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-watch-1.1.0.6.1-open.aar/de46fa21a8aea38093b2b89119118025/AndroidManifest.xml:19:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-watch:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-watch-1.1.0.6.1-open.aar/de46fa21a8aea38093b2b89119118025/AndroidManifest.xml:19:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-bizerrorreporter:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-bizerrorreporter-1.1.0.6.1-open.aar/c78aa7be6026afe1ebfa83b45d262c7a/AndroidManifest.xml:15:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-bizerrorreporter:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-bizerrorreporter-1.1.0.6.1-open.aar/c78aa7be6026afe1ebfa83b45d262c7a/AndroidManifest.xml:15:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-crashreporter:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-crashreporter-1.1.0.1-open.aar/9e37b175f379c772ab69134895f5b06f/AndroidManifest.xml:17:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-crashreporter:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-crashreporter-1.1.0.1-open.aar/9e37b175f379c772ab69134895f5b06f/AndroidManifest.xml:17:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-onlinemonitor:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-onlinemonitor-1.1.0.1-open.aar/0641f59e761f2da677a25de026439bdf/AndroidManifest.xml:11:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-onlinemonitor:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-onlinemonitor-1.1.0.1-open.aar/0641f59e761f2da677a25de026439bdf/AndroidManifest.xml:11:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-1.1.0.6.1-open.aar/9c56e7dab05c3b35a3d0170e2a48a06c/AndroidManifest.xml:15:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-1.1.0.6.1-open.aar/9c56e7dab05c3b35a3d0170e2a48a06c/AndroidManifest.xml:15:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-protocol-1.1.0.6-open.aar/8009daa2a20f8b50dd10ba401fe16a64/AndroidManifest.xml:15:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-protocol-1.1.0.6-open.aar/8009daa2a20f8b50dd10ba401fe16a64/AndroidManifest.xml:15:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-uploader-oss:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-uploader-oss-1.1.0.6.1-open.aar/dc2049b012c9eaed0c5db513825c6dc0/AndroidManifest.xml:17:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-uploader-oss:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-uploader-oss-1.1.0.6.1-open.aar/dc2049b012c9eaed0c5db513825c6dc0/AndroidManifest.xml:17:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-message-rpc:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-message-rpc-1.1.0.6.1-open.aar/ffdceafde4833ab03921f0137ae15c15/AndroidManifest.xml:17:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-message-rpc:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-message-rpc-1.1.0.6.1-open.aar/ffdceafde4833ab03921f0137ae15c15/AndroidManifest.xml:17:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-tbrest:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tbrest-1.1.0.6-open.aar/614394c72f901ffdf3472e12156f26b0/AndroidManifest.xml:15:5-81
+MERGED from [com.aliyun.ams:alicloud-android-ha-tbrest:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tbrest-1.1.0.6-open.aar/614394c72f901ffdf3472e12156f26b0/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:16:5-18:46
+	tools:ignore
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:18:9-44
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:17:9-68
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:19:22-76
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:20:5-67
+MERGED from [com.aliyun.ams:alicloud-android-ha-ut-analytics:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-ut-analytics-1.1.0.1-open.aar/c4fb3699188ae8d8c1a8238cf7f42be6/AndroidManifest.xml:14:5-15:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-ut-analytics:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-ut-analytics-1.1.0.1-open.aar/c4fb3699188ae8d8c1a8238cf7f42be6/AndroidManifest.xml:14:5-15:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-watch:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-watch-1.1.0.6.1-open.aar/de46fa21a8aea38093b2b89119118025/AndroidManifest.xml:17:5-18:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-watch:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-watch-1.1.0.6.1-open.aar/de46fa21a8aea38093b2b89119118025/AndroidManifest.xml:17:5-18:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-crashreporter:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-crashreporter-1.1.0.1-open.aar/9e37b175f379c772ab69134895f5b06f/AndroidManifest.xml:15:5-16:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-crashreporter:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-crashreporter-1.1.0.1-open.aar/9e37b175f379c772ab69134895f5b06f/AndroidManifest.xml:15:5-16:23
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:20:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:21:5-75
+MERGED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-76
+MERGED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-76
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-76
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.2] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/oss-android-sdk-2.9.2.aar/21590bd7da760fe6fb979b7cef009492/AndroidManifest.xml:13:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.2] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/oss-android-sdk-2.9.2.aar/21590bd7da760fe6fb979b7cef009492/AndroidManifest.xml:13:5-76
+MERGED from [com.aliyun.ams:alicloud-android-ha-ut-analytics:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-ut-analytics-1.1.0.1-open.aar/c4fb3699188ae8d8c1a8238cf7f42be6/AndroidManifest.xml:19:5-20:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-ut-analytics:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-ut-analytics-1.1.0.1-open.aar/c4fb3699188ae8d8c1a8238cf7f42be6/AndroidManifest.xml:19:5-20:23
+MERGED from [:Aliyunplayer:AlivcPlayer] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AlivcPlayer-3.4.9.aar/e74bae1d37b57ddebf5a7b8ae53e0ad3/AndroidManifest.xml:11:5-76
+MERGED from [:Aliyunplayer:AlivcPlayer] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AlivcPlayer-3.4.9.aar/e74bae1d37b57ddebf5a7b8ae53e0ad3/AndroidManifest.xml:11:5-76
+MERGED from [:Aliyunplayer:AlivcVodPlayer] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AliyunVodPlayer-3.4.9.aar/047b43d0178486eaeff33c3b7004e7d8/AndroidManifest.xml:11:5-76
+MERGED from [:Aliyunplayer:AlivcVodPlayer] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AliyunVodPlayer-3.4.9.aar/047b43d0178486eaeff33c3b7004e7d8/AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:21:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:22:5-75
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-76
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.2] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/oss-android-sdk-2.9.2.aar/21590bd7da760fe6fb979b7cef009492/AndroidManifest.xml:15:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.2] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/oss-android-sdk-2.9.2.aar/21590bd7da760fe6fb979b7cef009492/AndroidManifest.xml:15:5-76
+MERGED from [:Aliyunplayer:AlivcVodPlayer] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AliyunVodPlayer-3.4.9.aar/047b43d0178486eaeff33c3b7004e7d8/AndroidManifest.xml:12:5-76
+MERGED from [:Aliyunplayer:AlivcVodPlayer] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AliyunVodPlayer-3.4.9.aar/047b43d0178486eaeff33c3b7004e7d8/AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:22:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:23:5-67
+MERGED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-68
+MERGED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:23:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:24:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:25:5-74
+MERGED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-75
+MERGED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-75
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:20:5-75
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:20:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-adapter:1.1.0.6.2-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-adapter-1.1.0.6.2-open.aar/b227146863229c862e20e01b00ca7d79/AndroidManifest.xml:15:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-adapter:1.1.0.6.2-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-adapter-1.1.0.6.2-open.aar/b227146863229c862e20e01b00ca7d79/AndroidManifest.xml:15:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-ut-analytics:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-ut-analytics-1.1.0.1-open.aar/c4fb3699188ae8d8c1a8238cf7f42be6/AndroidManifest.xml:13:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-ut-analytics:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-ut-analytics-1.1.0.1-open.aar/c4fb3699188ae8d8c1a8238cf7f42be6/AndroidManifest.xml:13:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-core:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-core-1.1.0.6.1-open.aar/c2fe8d3a4e4b772beadb934af82333b2/AndroidManifest.xml:13:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-core:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-core-1.1.0.6.1-open.aar/c2fe8d3a4e4b772beadb934af82333b2/AndroidManifest.xml:13:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-protocol-1.1.0.6-open.aar/650a766098f80e7d0537f375d0c686b2/AndroidManifest.xml:13:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-protocol-1.1.0.6-open.aar/650a766098f80e7d0537f375d0c686b2/AndroidManifest.xml:13:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-watch:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-watch-1.1.0.6.1-open.aar/de46fa21a8aea38093b2b89119118025/AndroidManifest.xml:15:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-watch:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-watch-1.1.0.6.1-open.aar/de46fa21a8aea38093b2b89119118025/AndroidManifest.xml:15:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-bizerrorreporter:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-bizerrorreporter-1.1.0.6.1-open.aar/c78aa7be6026afe1ebfa83b45d262c7a/AndroidManifest.xml:13:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-bizerrorreporter:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-bizerrorreporter-1.1.0.6.1-open.aar/c78aa7be6026afe1ebfa83b45d262c7a/AndroidManifest.xml:13:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-crashreporter:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-crashreporter-1.1.0.1-open.aar/9e37b175f379c772ab69134895f5b06f/AndroidManifest.xml:13:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-crashreporter:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-crashreporter-1.1.0.1-open.aar/9e37b175f379c772ab69134895f5b06f/AndroidManifest.xml:13:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-1.1.0.6.1-open.aar/9c56e7dab05c3b35a3d0170e2a48a06c/AndroidManifest.xml:13:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-1.1.0.6.1-open.aar/9c56e7dab05c3b35a3d0170e2a48a06c/AndroidManifest.xml:13:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-protocol-1.1.0.6-open.aar/8009daa2a20f8b50dd10ba401fe16a64/AndroidManifest.xml:13:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-protocol-1.1.0.6-open.aar/8009daa2a20f8b50dd10ba401fe16a64/AndroidManifest.xml:13:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-uploader-oss:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-uploader-oss-1.1.0.6.1-open.aar/dc2049b012c9eaed0c5db513825c6dc0/AndroidManifest.xml:15:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-uploader-oss:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-uploader-oss-1.1.0.6.1-open.aar/dc2049b012c9eaed0c5db513825c6dc0/AndroidManifest.xml:15:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-message-rpc:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-message-rpc-1.1.0.6.1-open.aar/ffdceafde4833ab03921f0137ae15c15/AndroidManifest.xml:15:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-message-rpc:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-message-rpc-1.1.0.6.1-open.aar/ffdceafde4833ab03921f0137ae15c15/AndroidManifest.xml:15:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-tbrest:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tbrest-1.1.0.6-open.aar/614394c72f901ffdf3472e12156f26b0/AndroidManifest.xml:13:5-75
+MERGED from [com.aliyun.ams:alicloud-android-ha-tbrest:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tbrest-1.1.0.6-open.aar/614394c72f901ffdf3472e12156f26b0/AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:25:22-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:26:5-80
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:26:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:27:5-79
+MERGED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:18:5-80
+MERGED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:18:5-80
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-80
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:23:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:27:22-77
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:28:5-67
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:22:5-68
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:28:22-65
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:29:5-77
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:29:22-75
+application
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:31:5-50:19
+MERGED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:20:5-34:19
+MERGED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:20:5-34:19
+MERGED from [:zxing] /Users/xiyuan/AliVideo/gradle-build/zxing/intermediates/manifests/full/debug/AndroidManifest.xml:17:5-25:19
+MERGED from [:zxing] /Users/xiyuan/AliVideo/gradle-build/zxing/intermediates/manifests/full/debug/AndroidManifest.xml:17:5-25:19
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.2] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/oss-android-sdk-2.9.2.aar/21590bd7da760fe6fb979b7cef009492/AndroidManifest.xml:17:5-20:19
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.2] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/oss-android-sdk-2.9.2.aar/21590bd7da760fe6fb979b7cef009492/AndroidManifest.xml:17:5-20:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:26:5-70:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:26:5-70:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/glide-4.8.0.aar/133d51ddf73fda7072251463a4ead9a3/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/glide-4.8.0.aar/133d51ddf73fda7072251463a4ead9a3/AndroidManifest.xml:10:5-20
+MERGED from [:Aliyunplayer:AlivcReporter] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AlivcReporter-1.2.aar/fb497b06ee8527cdc839c4763b71476d/AndroidManifest.xml:14:5-15:19
+MERGED from [:Aliyunplayer:AlivcReporter] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AlivcReporter-1.2.aar/fb497b06ee8527cdc839c4763b71476d/AndroidManifest.xml:14:5-15:19
+MERGED from [com.android.support:support-compat:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7168c4c719c7f797170ee3a1cde25315/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7168c4c719c7f797170ee3a1cde25315/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d9e6a01a80dc33a275bfddcb602f1938/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d9e6a01a80dc33a275bfddcb602f1938/AndroidManifest.xml:22:5-23:19
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-analyzer-1.6.1.aar/6fdc24badf586f72c5d3482d528cf5cd/AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-analyzer-1.6.1.aar/6fdc24badf586f72c5d3482d528cf5cd/AndroidManifest.xml:22:5-20
+MERGED from [com.aliyun.ams:alicloud-android-ha-telescopebase:1.1.0-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-telescopebase-1.1.0-open.aar/f9a3a43b8ca3e61a88acd9780ae0a7e1/AndroidManifest.xml:11:5-15:19
+MERGED from [com.aliyun.ams:alicloud-android-ha-telescopebase:1.1.0-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-telescopebase-1.1.0-open.aar/f9a3a43b8ca3e61a88acd9780ae0a7e1/AndroidManifest.xml:11:5-15:19
+MERGED from [com.aliyun.ams:alicloud-android-ha-telescopesdk:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-telescopesdk-1.1.0.1-open.aar/a147d99a66ad831c93a403ef3a916255/AndroidManifest.xml:11:5-18:19
+MERGED from [com.aliyun.ams:alicloud-android-ha-telescopesdk:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-telescopesdk-1.1.0.1-open.aar/a147d99a66ad831c93a403ef3a916255/AndroidManifest.xml:11:5-18:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/62ea68978d8ddee8391558cabe108caf/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/62ea68978d8ddee8391558cabe108caf/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7168c4c719c7f797170ee3a1cde25315/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:38:9-35
+	android:label
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:36:9-41
+	android:roundIcon
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:37:9-54
+	android:icon
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:35:9-43
+	android:allowBackup
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:34:9-35
+	android:theme
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:32:9-40
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:33:9-28
+activity#com.video.alivideo.MainActivity
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:39:9-45:20
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:39:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:40:13-44:29
+action#android.intent.action.MAIN
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:41:17-68
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:43:17-76
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:43:27-74
+activity#com.video.alivideo.LivePushActivity
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:47:9-53
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:47:19-51
+activity#com.video.alivideo.PushConfigActivity
+ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:48:9-55
+	android:name
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml:48:19-53
+uses-sdk
+INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml
+MERGED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:AliyunVideoCommon] /Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:multidex:1.0.2] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/multidex-1.0.2.aar/13f5beae54aaa96034611d555712537f/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/multidex-1.0.2.aar/13f5beae54aaa96034611d555712537f/AndroidManifest.xml:20:5-43
+MERGED from [:zxing] /Users/xiyuan/AliVideo/gradle-build/zxing/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:zxing] /Users/xiyuan/AliVideo/gradle-build/zxing/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6c16bf5c53cb996ec52752c39a6a966a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6c16bf5c53cb996ec52752c39a6a966a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/fd15b6ad6e25712eb29aa579e15fbd45/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/fd15b6ad6e25712eb29aa579e15fbd45/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/52c85646453399f153edcd3af9bfd5e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/52c85646453399f153edcd3af9bfd5e5/AndroidManifest.xml:20:5-44
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.2] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/oss-android-sdk-2.9.2.aar/21590bd7da760fe6fb979b7cef009492/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.2] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/oss-android-sdk-2.9.2.aar/21590bd7da760fe6fb979b7cef009492/AndroidManifest.xml:7:5-9:41
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:20:5-44
+MERGED from [com.aliyun.ams:alicloud-android-ha-adapter:1.1.0.6.2-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-adapter-1.1.0.6.2-open.aar/b227146863229c862e20e01b00ca7d79/AndroidManifest.xml:8:5-11:76
+MERGED from [com.aliyun.ams:alicloud-android-ha-adapter:1.1.0.6.2-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-adapter-1.1.0.6.2-open.aar/b227146863229c862e20e01b00ca7d79/AndroidManifest.xml:8:5-11:76
+MERGED from [com.aliyun.ams:alicloud-android-ha-ut-analytics:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-ut-analytics-1.1.0.1-open.aar/c4fb3699188ae8d8c1a8238cf7f42be6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-ut-analytics:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-ut-analytics-1.1.0.1-open.aar/c4fb3699188ae8d8c1a8238cf7f42be6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/glide-4.8.0.aar/133d51ddf73fda7072251463a4ead9a3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/glide-4.8.0.aar/133d51ddf73fda7072251463a4ead9a3/AndroidManifest.xml:6:5-8:41
+MERGED from [:Aliyunplayer:AlivcPlayer] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AlivcPlayer-3.4.9.aar/e74bae1d37b57ddebf5a7b8ae53e0ad3/AndroidManifest.xml:7:5-9:41
+MERGED from [:Aliyunplayer:AlivcPlayer] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AlivcPlayer-3.4.9.aar/e74bae1d37b57ddebf5a7b8ae53e0ad3/AndroidManifest.xml:7:5-9:41
+MERGED from [:Aliyunplayer:AlivcReporter] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AlivcReporter-1.2.aar/fb497b06ee8527cdc839c4763b71476d/AndroidManifest.xml:7:5-9:41
+MERGED from [:Aliyunplayer:AlivcReporter] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AlivcReporter-1.2.aar/fb497b06ee8527cdc839c4763b71476d/AndroidManifest.xml:7:5-9:41
+MERGED from [:Aliyunplayer:AlivcVodPlayer] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AliyunVodPlayer-3.4.9.aar/047b43d0178486eaeff33c3b7004e7d8/AndroidManifest.xml:7:5-9:41
+MERGED from [:Aliyunplayer:AlivcVodPlayer] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AliyunVodPlayer-3.4.9.aar/047b43d0178486eaeff33c3b7004e7d8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d2866c57f3f7d4c8151f6822fb0dc6df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d2866c57f3f7d4c8151f6822fb0dc6df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4e50852860fa9b9cf4fa72717ba1798d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4e50852860fa9b9cf4fa72717ba1798d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/415a4e20f2d5180be146943c0e648749/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/415a4e20f2d5180be146943c0e648749/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/10163a064016f08bf60e9270a6f8f259/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/10163a064016f08bf60e9270a6f8f259/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/04e1d66ce7459ce02e1f14dc7c84bb3e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/04e1d66ce7459ce02e1f14dc7c84bb3e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/bba3a800d9cb02e32b98e44b3776b874/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/bba3a800d9cb02e32b98e44b3776b874/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/loader-28.0.0.aar/d473c964dc484c506b2d64b3ff3c36b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/loader-28.0.0.aar/d473c964dc484c506b2d64b3ff3c36b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/86d20dae8f29bb06c111b690dfc10b36/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/86d20dae8f29bb06c111b690dfc10b36/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/51a8611ea8164d7bb0f9b4b8c874de34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/51a8611ea8164d7bb0f9b4b8c874de34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/1270b08a8d0c9850b46af22ab7200a76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/1270b08a8d0c9850b46af22ab7200a76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/169c556ba91790901a44d52031dd9cf0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/169c556ba91790901a44d52031dd9cf0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/customview-28.0.0.aar/d6d5eba83199a4e197c78bf69c70df8b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/customview-28.0.0.aar/d6d5eba83199a4e197c78bf69c70df8b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/2cd518015671ce8e777cf0f22c9c367a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/2cd518015671ce8e777cf0f22c9c367a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c7d3e70dd1d5011ea67c295bb1ab3967/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c7d3e70dd1d5011ea67c295bb1ab3967/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7168c4c719c7f797170ee3a1cde25315/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7168c4c719c7f797170ee3a1cde25315/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d9e6a01a80dc33a275bfddcb602f1938/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d9e6a01a80dc33a275bfddcb602f1938/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d79542bcdd439aa6cdd5fc5eca79fe84/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d79542bcdd439aa6cdd5fc5eca79fe84/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0120c5ab33798535eab1257383593775/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0120c5ab33798535eab1257383593775/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a348d3f8c9d3d9d9048b1dfe60557035/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a348d3f8c9d3d9d9048b1dfe60557035/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/edef4b7dddb50c564c958dd96933bc7d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/edef4b7dddb50c564c958dd96933bc7d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/livedata-1.1.1.aar/b4cf9bf74ffee8390491a621021f01b6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/livedata-1.1.1.aar/b4cf9bf74ffee8390491a621021f01b6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8c487ce014f815f357c362f86a8f5f06/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8c487ce014f815f357c362f86a8f5f06/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a75fe72493efc02ed8d416011f2d0ca9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a75fe72493efc02ed8d416011f2d0ca9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/eb169297cfe871aaff0cf27750177fe0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/eb169297cfe871aaff0cf27750177fe0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/8edcd86911a1b85e792a4ba6ca57a4c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/8edcd86911a1b85e792a4ba6ca57a4c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/print-28.0.0.aar/8582a5b10de8c28840eb363ed2ae431f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/print-28.0.0.aar/8582a5b10de8c28840eb363ed2ae431f/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-analyzer-1.6.1.aar/6fdc24badf586f72c5d3482d528cf5cd/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-analyzer-1.6.1.aar/6fdc24badf586f72c5d3482d528cf5cd/AndroidManifest.xml:20:5-44
+MERGED from [com.aliyun.ams:alicloud-android-ha-core:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-core-1.1.0.6.1-open.aar/c2fe8d3a4e4b772beadb934af82333b2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-core:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-core-1.1.0.6.1-open.aar/c2fe8d3a4e4b772beadb934af82333b2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-protocol-1.1.0.6-open.aar/650a766098f80e7d0537f375d0c686b2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-protocol-1.1.0.6-open.aar/650a766098f80e7d0537f375d0c686b2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-watch:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-watch-1.1.0.6.1-open.aar/de46fa21a8aea38093b2b89119118025/AndroidManifest.xml:8:5-11:60
+MERGED from [com.aliyun.ams:alicloud-android-ha-watch:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-watch-1.1.0.6.1-open.aar/de46fa21a8aea38093b2b89119118025/AndroidManifest.xml:8:5-11:60
+MERGED from [com.aliyun.ams:alicloud-android-ha-bizerrorreporter:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-bizerrorreporter-1.1.0.6.1-open.aar/c78aa7be6026afe1ebfa83b45d262c7a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-bizerrorreporter:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-bizerrorreporter-1.1.0.6.1-open.aar/c78aa7be6026afe1ebfa83b45d262c7a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-crashreporter:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-crashreporter-1.1.0.1-open.aar/9e37b175f379c772ab69134895f5b06f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-crashreporter:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-crashreporter-1.1.0.1-open.aar/9e37b175f379c772ab69134895f5b06f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-telescopebase:1.1.0-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-telescopebase-1.1.0-open.aar/f9a3a43b8ca3e61a88acd9780ae0a7e1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-telescopebase:1.1.0-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-telescopebase-1.1.0-open.aar/f9a3a43b8ca3e61a88acd9780ae0a7e1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-telescopesdk:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-telescopesdk-1.1.0.1-open.aar/a147d99a66ad831c93a403ef3a916255/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-telescopesdk:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-telescopesdk-1.1.0.1-open.aar/a147d99a66ad831c93a403ef3a916255/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-onlinemonitor:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-onlinemonitor-1.1.0.1-open.aar/0641f59e761f2da677a25de026439bdf/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-onlinemonitor:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-onlinemonitor-1.1.0.1-open.aar/0641f59e761f2da677a25de026439bdf/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-1.1.0.6.1-open.aar/9c56e7dab05c3b35a3d0170e2a48a06c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-1.1.0.6.1-open.aar/9c56e7dab05c3b35a3d0170e2a48a06c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-native:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-native-1.1.0.6-open.aar/e19eb45396dcfa4c8ac11447230bb526/AndroidManifest.xml:5:5-7:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-native:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-native-1.1.0.6-open.aar/e19eb45396dcfa4c8ac11447230bb526/AndroidManifest.xml:5:5-7:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-protocol-1.1.0.6-open.aar/8009daa2a20f8b50dd10ba401fe16a64/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-protocol:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-protocol-1.1.0.6-open.aar/8009daa2a20f8b50dd10ba401fe16a64/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-uploader-oss:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-uploader-oss-1.1.0.6.1-open.aar/dc2049b012c9eaed0c5db513825c6dc0/AndroidManifest.xml:8:5-11:94
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-uploader-oss:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-uploader-oss-1.1.0.6.1-open.aar/dc2049b012c9eaed0c5db513825c6dc0/AndroidManifest.xml:8:5-11:94
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-message-rpc:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-message-rpc-1.1.0.6.1-open.aar/ffdceafde4833ab03921f0137ae15c15/AndroidManifest.xml:8:5-11:54
+MERGED from [com.aliyun.ams:alicloud-android-ha-tlog-message-rpc:1.1.0.6.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tlog-message-rpc-1.1.0.6.1-open.aar/ffdceafde4833ab03921f0137ae15c15/AndroidManifest.xml:8:5-11:54
+MERGED from [com.aliyun.ams:alicloud-android-ha-tbrest:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tbrest-1.1.0.6-open.aar/614394c72f901ffdf3472e12156f26b0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-ha-tbrest:1.1.0.6-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-tbrest-1.1.0.6-open.aar/614394c72f901ffdf3472e12156f26b0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/62ea68978d8ddee8391558cabe108caf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/62ea68978d8ddee8391558cabe108caf/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.aliyun.ams:alicloud-android-ha-adapter:1.1.0.6.2-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-adapter-1.1.0.6.2-open.aar/b227146863229c862e20e01b00ca7d79/AndroidManifest.xml:11:9-73
+	android:targetSdkVersion
+		INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xiyuan/AliVideo/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:17:5-73
+MERGED from [com.aliyun.ams:alicloud-android-ha-ut-analytics:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-ut-analytics-1.1.0.1-open.aar/c4fb3699188ae8d8c1a8238cf7f42be6/AndroidManifest.xml:17:5-18:23
+MERGED from [com.aliyun.ams:alicloud-android-ha-ut-analytics:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-ut-analytics-1.1.0.1-open.aar/c4fb3699188ae8d8c1a8238cf7f42be6/AndroidManifest.xml:17:5-18:23
+MERGED from [:Aliyunplayer:AlivcPlayer] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AlivcPlayer-3.4.9.aar/e74bae1d37b57ddebf5a7b8ae53e0ad3/AndroidManifest.xml:12:5-73
+MERGED from [:Aliyunplayer:AlivcPlayer] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/AlivcPlayer-3.4.9.aar/e74bae1d37b57ddebf5a7b8ae53e0ad3/AndroidManifest.xml:12:5-73
+	android:name
+		ADDED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:17:22-70
+activity#com.aliyun.vodplayerview.activity.AliyunPlayerSettingActivity
+ADDED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:23:9-27:20
+	android:screenOrientation
+		ADDED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:26:13-49
+	android:configChanges
+		ADDED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:25:13-74
+	android:name
+		ADDED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:24:13-89
+activity#com.aliyun.vodplayerview.activity.AliyunPlayerSkinActivity
+ADDED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:28:9-33:20
+	android:screenOrientation
+		ADDED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:31:13-49
+	android:configChanges
+		ADDED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:30:13-74
+	android:theme
+		ADDED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [:Aliyunplayer:player_demo] /Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/intermediates/manifests/full/debug/AndroidManifest.xml:29:13-86
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:zxing] /Users/xiyuan/AliVideo/gradle-build/zxing/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-70
+	android:name
+		ADDED from [:zxing] /Users/xiyuan/AliVideo/gradle-build/zxing/intermediates/manifests/full/debug/AndroidManifest.xml:14:19-67
+activity#com.google.zxing.activity.CaptureActivity
+ADDED from [:zxing] /Users/xiyuan/AliVideo/gradle-build/zxing/intermediates/manifests/full/debug/AndroidManifest.xml:22:9-24:66
+	android:theme
+		ADDED from [:zxing] /Users/xiyuan/AliVideo/gradle-build/zxing/intermediates/manifests/full/debug/AndroidManifest.xml:24:13-63
+	android:name
+		ADDED from [:zxing] /Users/xiyuan/AliVideo/gradle-build/zxing/intermediates/manifests/full/debug/AndroidManifest.xml:23:13-69
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:27:9-30:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:30:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:28:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:31:9-34:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:34:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:32:13-70
+provider#com.squareup.leakcanary.internal.LeakCanaryFileProvider
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:36:9-44:20
+	android:grantUriPermissions
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:40:13-47
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:38:13-88
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:37:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:41:13-43:66
+	android:resource
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:43:17-63
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:42:17-67
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:46:9-59:20
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:51:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:48:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:50:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:49:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:53:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:52:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:47:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:60:9-69:68
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:66:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:62:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:65:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:63:13-46
+	android:roundIcon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:67:13-57
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:64:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:69:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:68:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/leakcanary-android-1.6.1.aar/eae96e9fdb4551b6ad11a66cf43e7eb2/AndroidManifest.xml:61:13-93
+service#com.ali.telescope.internal.plugins.memleak.MemoryLeakService
+ADDED from [com.aliyun.ams:alicloud-android-ha-telescopesdk:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-telescopesdk-1.1.0.1-open.aar/a147d99a66ad831c93a403ef3a916255/AndroidManifest.xml:15:9-17:45
+	android:process
+		ADDED from [com.aliyun.ams:alicloud-android-ha-telescopesdk:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-telescopesdk-1.1.0.1-open.aar/a147d99a66ad831c93a403ef3a916255/AndroidManifest.xml:17:13-42
+	android:name
+		ADDED from [com.aliyun.ams:alicloud-android-ha-telescopesdk:1.1.0.1-open] /Applications/Android Studio 3.app/Contents/gradle/gradle-4.6/caches/transforms-1/files-1.1/alicloud-android-ha-telescopesdk-1.1.0.1-open.aar/a147d99a66ad831c93a403ef3a916255/AndroidManifest.xml:16:13-88

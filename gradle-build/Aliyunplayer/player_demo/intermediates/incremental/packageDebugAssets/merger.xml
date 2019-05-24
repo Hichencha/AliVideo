@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/xiyuan/AliVideo/Aliyunplayer/player_demo/src/main/assets"><file name="encrypt/encryptedApp.dat" path="/Users/xiyuan/AliVideo/Aliyunplayer/player_demo/src/main/assets/encrypt/encryptedApp.dat"/></source><source path="/Users/xiyuan/AliVideo/gradle-build/Aliyunplayer/player_demo/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/xiyuan/AliVideo/Aliyunplayer/player_demo/src/debug/assets"/></dataSet></merger>

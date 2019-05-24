@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"转到主屏幕"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"关闭"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"开启"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Delete 键"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Enter 键"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Fn+"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"空格键"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"使用<ns1:g id="APPLICATION_NAME">%s</ns1:g>分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收起"</string>
+    <string name="add_to_download">添加下载</string>
+    <string name="aliv_err_download_invalid_save_path">视频文件保存路径不存在，请重新设置</string>
+    <string name="alivc_alivc_replay_msg">视频播放结束</string>
+    <string name="alivc_brightness">亮度</string>
+    <string name="alivc_cannot_change_quality">在此播放器状态下不能切换</string>
+    <string name="alivc_center">中心</string>
+    <string name="alivc_check_list_close">关闭</string>
+    <string name="alivc_checkbox_all_select">全选</string>
+    <string name="alivc_control">调节</string>
+    <string name="alivc_delete_confirm">确认删除选择的视频吗？</string>
+    <string name="alivc_dialog_cancle">取消</string>
+    <string name="alivc_dialog_sure">确定</string>
+    <string name="alivc_download_delete">删除</string>
+    <string name="alivc_download_edit">编辑</string>
+    <string name="alivc_download_mode_changed">下载模式改变无法继续下载</string>
+    <string name="alivc_download_video">视频下载</string>
+    <string name="alivc_err_auth_expried">鉴权过期，请重新获取新的鉴权信息</string>
+    <string name="alivc_err_data_error">服务器返回数据错误</string>
+    <string name="alivc_err_decode_failed">视频解码失败</string>
+    <string name="alivc_err_download_already_added">当前视频已经添加到下载项，请避免重复添加</string>
+    <string name="alivc_err_download_get_key">获取秘钥失败，请检查秘钥文件</string>
+    <string name="alivc_err_download_invalid_inputfile">视频下载流无效或地址过期</string>
+    <string name="alivc_err_download_invalid_url">下载地址无效</string>
+    <string name="alivc_err_download_network_timeout">视频下载时网络超时</string>
+    <string name="alivc_err_download_no_encrypt_file">未找到加密文件，请从控制台下载加密文件并集成</string>
+    <string name="alivc_err_download_no_match">未找到合适的下载项，请先添加</string>
+    <string name="alivc_err_download_no_network">视频下载时连接不到服务器</string>
+    <string name="alivc_err_download_no_permission">当前视频不可下载</string>
+    <string name="alivc_err_download_no_space">磁盘空间不够</string>
+    <string name="alivc_err_download_request_mts_serveer_error">下载请求mts服务器错误</string>
+    <string name="alivc_err_download_request_saas_server_error">下载请求saas服务器错误</string>
+    <string name="alivc_err_download_server_invalid_param">下载服务器返回参数无效，请检查</string>
+    <string name="alivc_err_function_denied">系统权限被拒绝或没有经过授权</string>
+    <string name="alivc_err_illegalstatus">非法的播放器状态</string>
+    <string name="alivc_err_invalid_inutfile">无效的输入，请检查输入地址或者网络链接</string>
+    <string name="alivc_err_invalid_param">参数非法，请检查参数</string>
+    <string name="alivc_err_loading_failed">网络错误加载视频失败</string>
+    <string name="alivc_err_loading_timeout">视频加载超时，请检查网络状况</string>
+    <string name="alivc_err_media_abort">获取数据被中止</string>
+    <string name="alivc_err_media_unsopproted">媒体源不支持或者无效</string>
+    <string name="alivc_err_no_inputfile">没有设置视频源或视频地址不存在</string>
+    <string name="alivc_err_no_memory">内存不足</string>
+    <string name="alivc_err_no_network">当前网络不可用</string>
+    <string name="alivc_err_no_storage_permission">无本地存储访问权限</string>
+    <string name="alivc_err_no_support_codec">视频编码格式不支持</string>
+    <string name="alivc_err_no_view">没有设置显示窗口，请先设置播放视图</string>
+    <string name="alivc_err_play_failed">播放出错</string>
+    <string name="alivc_err_playauth_parse_failed">playAuth解析失败</string>
+    <string name="alivc_err_read_data_failed">读取视频源失败</string>
+    <string name="alivc_err_read_metadata_failed">读取元数据失败</string>
+    <string name="alivc_err_request_data_error">请求数据错误</string>
+    <string name="alivc_err_request_error">服务端请求错误</string>
+    <string name="alivc_err_request_mts_server_error">请求mts服务器错误</string>
+    <string name="alivc_err_request_saas_server_error">请求saas服务器错误</string>
+    <string name="alivc_err_server_invalid_param">服务器返回参数无效，请检查参数</string>
+    <string name="alivc_err_unkown">未知错误</string>
+    <string name="alivc_err_vencrypted_video_unsuported">不支持加密视频播放</string>
+    <string name="alivc_err_video_format_unsupported">视频格式不支持</string>
+    <string name="alivc_error_code">错误码:</string>
+    <string name="alivc_error_msg">错误消息</string>
+    <string name="alivc_fd_definition">流畅</string>
+    <string name="alivc_hd_definition">超清</string>
+    <string name="alivc_k2_definition">2k</string>
+    <string name="alivc_k4_definition">4k</string>
+    <string name="alivc_ld_definition">标清</string>
+    <string name="alivc_left_side">左侧</string>
+    <string name="alivc_loading">视频正在加载中..</string>
+    <string name="alivc_loading_tips">视频正在加载中...</string>
+    <string name="alivc_mts_fhd_definition">超清</string>
+    <string name="alivc_mts_hd_definition">高清</string>
+    <string name="alivc_mts_ld_definition">流畅</string>
+    <string name="alivc_mts_sd_definition">标清</string>
+    <string name="alivc_mts_xld_definition">极速</string>
+    <string name="alivc_native_video">离线视频</string>
+    <string name="alivc_net_disable">无网络连接，检查网络后点击重新播放</string>
+    <string name="alivc_net_state_mobile">当前为移动网络，请点击播放</string>
+    <string name="alivc_net_state_mobile_no">退出播放</string>
+    <string name="alivc_net_state_mobile_yes">继续播放</string>
+    <string name="alivc_no_mediaplayer">播放器未创建</string>
+    <string name="alivc_od_definition">原画</string>
+    <string name="alivc_player_settings_title">播放设置</string>
+    <string name="alivc_progress">进度</string>
+    <string name="alivc_quality_same">和当前播放清晰度一致</string>
+    <string name="alivc_replay">重播</string>
+    <string name="alivc_retry">重试</string>
+    <string name="alivc_right_side">右侧</string>
+    <string name="alivc_sd_definition">高清</string>
+    <string name="alivc_speed">倍速播放</string>
+    <string name="alivc_speed_mode">倍速播放</string>
+    <string name="alivc_speed_one_times">正常</string>
+    <string name="alivc_speed_opt_times">1.5倍速</string>
+    <string name="alivc_speed_optf_times">1.25倍速</string>
+    <string name="alivc_speed_tips">当前视频已切换为%1$s播放</string>
+    <string name="alivc_speed_twice_times">2.0倍速</string>
+    <string name="alivc_start_download">开始下载</string>
+    <string name="alivc_success">成功</string>
+    <string name="alivc_video_download_finish_tips">该视频下载完成</string>
+    <string name="alivc_video_downloading_tips">该视频正在下载</string>
+    <string name="alivc_volume">音量</string>
+    <string name="already_downloaded">已缓存</string>
+    <string name="choose_a_definition_to_download">请选择一个清晰度进行下载</string>
+    <string name="choose_download_sharpness">选择清晰度</string>
+    <string name="choose_downloaditem">选择下载项</string>
+    <string name="clear_logs">清除日志</string>
+    <string name="download_caching">正在缓存</string>
+    <string name="download_downloading">下载中</string>
+    <string name="download_error">下载出错</string>
+    <string name="download_error_curl_download">curl 下载失败</string>
+    <string name="download_error_curl_init">curl初始化失败</string>
+    <string name="download_error_curl_opt">curl 出错</string>
+    <string name="download_error_dest_open_fail">保存地址打开失败</string>
+    <string name="download_error_disk_full">存储空间不足</string>
+    <string name="download_error_invalid_secret_image">无效的加密文件</string>
+    <string name="download_error_source_open_fail">源文件打开失败</string>
+    <string name="download_error_stopped">下载停止</string>
+    <string name="download_error_unkown">未知下载错误</string>
+    <string name="download_error_url_size">url 大小出错</string>
+    <string name="download_no_downloaded">你还没有离线视频</string>
+    <string name="download_no_downloaded_tips">可点击下载按钮添加视频</string>
+    <string name="download_pause">暂停中</string>
+    <string name="download_prepare">准备中</string>
+    <string name="download_wait">等待中</string>
+    <string name="encrypted">加密</string>
+    <string name="encrypted_no">未加密</string>
+    <string name="inout_accesskeyid_here">这里输入临时accesskeyId</string>
+    <string name="input_accesskeysecret_here">这里输入临时accesskeySecret</string>
+    <string name="input_securitytoken_here">这里输入临时securityToken</string>
+    <string name="input_url_here">请输入URL </string>
+    <string name="input_vid_here">这里输入视频vid</string>
+    <string name="kickalert">你被主播移出直播间，请注意言行！</string>
+    <string name="kickbt">我知道了</string>
+    <string name="log_change_quality_fail"> 切换清晰度失败</string>
+    <string name="log_change_quality_success"> 切换清晰度成功</string>
+    <string name="log_first_frame_played"> 第一帧播放完成</string>
+    <string name="log_open_url_success"> url请求成功</string>
+    <string name="log_play_completion"> 播放结束</string>
+    <string name="log_play_pause"> 播放暂停</string>
+    <string name="log_play_start"> 播放开始</string>
+    <string name="log_play_stopped"> 播放停止</string>
+    <string name="log_player_create_success"> 播放创建成功</string>
+    <string name="log_prepare_success"> 准备成功</string>
+    <string name="log_request_stream_success"> 请求流成功</string>
+    <string name="log_seek_completed"> seek结束</string>
+    <string name="log_seek_start"> seek开始</string>
+    <string name="log_start_get_data"> 准备请求码流</string>
+    <string name="log_start_open_stream"> 开始传输码流</string>
+    <string name="log_strart_play"> 开始请求播放</string>
+    <string name="no_camera_permission">没有权限使用摄像头，请开启摄像头权限</string>
+    <string name="no_download_right">无权限下载</string>
+    <string name="no_read_external_storage_permission">没有文件读权限，请开启该权限</string>
+    <string name="no_read_phone_state_permission">没有读取用户数据的权限，请开启该权限</string>
+    <string name="no_record_audio_permission">没有权限使用录音，请开启录音权限</string>
+    <string name="no_record_bluetooth_permission">没有权限使用蓝牙，请开启蓝牙权限</string>
+    <string name="no_write_external_storage_permission">没有文件写权限，请开启该权限</string>
+    <string name="play_url_null_toast">播放Url不能为空</string>
+    <string name="player_log">播放器日志：</string>
+    <string name="prepare_download_item">准备可下载项</string>
+    <string name="request_vidsts_fail">通过网络请求vidsts失败</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜索"</string>
+    <string name="slivc_not_support_url">不支持Url播放类型下载...</string>
+    <string name="start_player_setting">vid或url设置</string>
+    <string name="start_player_ui">开启播放界面</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="toast_play_compleion">播放结束</string>
+    <string name="toast_prepare_success">准备成功</string>
+</resources>

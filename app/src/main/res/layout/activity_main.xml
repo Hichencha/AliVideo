@@ -13,11 +13,7 @@
         android:id="@+id/pushBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="阿里云直播"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        android:text="阿里云直播"/>
 
 
 
@@ -26,11 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="阿里云播放"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        android:text="阿里云播放"/>
 
     <!--<EditText-->
         <!--style="@style/edit_line_style"-->

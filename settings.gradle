@@ -1,2 +1,7 @@
-include ':app'
-
+include ':app', ':zxing'
+include ':AliyunVideoCommon'
+include ':Aliyunplayer:AlivcPlayer'
+include ':Aliyunplayer:AlivcReporter'
+include ':Aliyunplayer:AlivcVodPlayer'
+include ':Aliyunplayer:player_demo'
+include ':zxing'

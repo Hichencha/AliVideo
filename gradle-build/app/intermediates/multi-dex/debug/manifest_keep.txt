@@ -1,0 +1,3 @@
+# Referenced at /Users/xiyuan/AliVideo/gradle-build/app/intermediates/manifests/full/debug/AndroidManifest.xml:34
+-keep class com.video.alivideo.APP { <init>(...); }
+

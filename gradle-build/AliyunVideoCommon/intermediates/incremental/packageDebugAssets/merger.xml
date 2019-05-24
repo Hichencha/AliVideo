@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/xiyuan/AliVideo/AliyunVideoCommon/src/main/assets"/><source path="/Users/xiyuan/AliVideo/gradle-build/AliyunVideoCommon/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/xiyuan/AliVideo/AliyunVideoCommon/src/debug/assets"/></dataSet></merger>

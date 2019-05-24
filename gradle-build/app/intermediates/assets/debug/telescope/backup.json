@@ -1,0 +1,130 @@
+{
+  "version": 10,
+  "forceDisable": [
+    "CrashReportPlugin"
+  ],
+  "plugins": [
+    {
+      "name": "CrashReportPlugin",
+      "enable": true
+    },
+    {
+      "name": "CpuPlugin",
+      "enable": true,
+      "params": {
+        "foreground_pick_interval": 3000,
+        "major_pick_interval": 2000,
+        "major_pick_count": 5,
+        "report_interval": 30000
+      }
+    },
+    {
+      "name": "StartPrefPlugin",
+      "enable": true,
+      "params": {
+      }
+    },
+    {
+      "name": "PageLoadPlugin",
+      "enable": true,
+      "params": {
+        "report_interval": 30000
+      }
+    },
+    {
+      "name": "SmoothPlugin",
+      "enable": true,
+      "params": {
+      }
+    },
+    {
+      "name": "MemoryPlugin",
+      "enable": true,
+      "params": {
+        "pick_interval": 3000,
+        "report_interval": 30000
+      }
+    },
+    {
+      "name": "MemoryLeakPlugin",
+      "enable": true,
+      "params": {
+        "interval_days":10
+      }
+    },
+    {
+      "name": "AppEventDetectPlugin",
+      "enable": true,
+      "params": {
+      }
+    },
+    {
+      "name": "MemBitmapPlugin",
+      "enable": false,
+      "params": {
+        "non_ui_thread_bitmap_size": 8388608,
+        "ui_thread_bitmap_size": 2097152,
+        "debug": true,
+        "pick_times":3
+      }
+    },
+    {
+      "name": "SystemComponentPlugin",
+      "enable": true,
+      "params": {
+        "launch_activity_threshold": 500,
+        "threshold": 100,
+        "enable_trace": true,
+        "strong_hook": true,
+        "debug": true,
+        "pick_times":10
+      }
+    },
+    {
+      "name": "FdOverflowPlugin",
+      "enable": true,
+      "params": {
+        "threshold": 85,
+        "debug": true
+      }
+    },
+    {
+      "name": "MainThreadBlockPlugin",
+      "enable": true,
+      "params": {
+        "startTime": 300,
+        "debug": false,
+        "enable_trace": false
+      }
+    },
+    {
+      "name": "MainThreadIoPlugin",
+      "enable": true,
+      "params": {
+        "threshold": 10,
+        "debug": false
+      }
+    },
+    {
+      "name": "ResourceLeakPlugin",
+      "enable": true,
+      "params": {
+        "debug": false,
+        "pick_times":3
+      }
+    }, {
+      "name":"UploadPlugin",
+      "enable":true,
+      "params":{
+        "boot_delay_check":30000,
+        "max_mobile_traffic":1048576,
+        "max_cache_day":604800000,
+        "max_check_interval":300000,
+        "bg_to_fg_check_delay":10000,
+        "fg_to_bg_check_delay":3000,
+        "max_load_file_size":256000,
+        "max_cache_size":52428800
+      }
+    }
+  ]
+}

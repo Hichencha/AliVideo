@@ -4,19 +4,10 @@ import android.hardware.Camera
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
-import com.alivc.live.pusher.AlivcAudioAACProfileEnum
-import com.alivc.live.pusher.AlivcLivePushConstants
-import com.alivc.live.pusher.AlivcLivePushConfig
-import com.alivc.live.pusher.AlivcQualityModeEnum
+import com.alivc.live.pusher.*
 import com.alivc.live.pusher.AlivcAudioChannelEnum.AUDIO_CHANNEL_TWO
-import com.alivc.live.pusher.AlivcPreviewOrientationEnum
 import com.alivc.live.pusher.AlivcPreviewOrientationEnum.ORIENTATION_PORTRAIT
 import com.alivc.live.pusher.AlivcVideoEncodeGopEnum.GOP_TWO
-import com.alivc.live.pusher.AlivcLivePushCameraTypeEnum
-import com.alivc.live.pusher.a.t
-import android.hardware.Camera.CameraInfo
-import android.hardware.Camera.CameraInfo.CAMERA_FACING_FRONT
-import com.alivc.live.pusher.AlivcEncodeModeEnum
 import kotlinx.android.synthetic.main.push_config_layout.*
 
 
