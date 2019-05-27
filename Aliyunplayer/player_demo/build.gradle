@@ -33,7 +33,7 @@ dependencies {
   implementation project(':Aliyunplayer:AlivcReporter')
   implementation project(':Aliyunplayer:AlivcVodPlayer')
   implementation project(':AliyunVideoCommon')
-  compile project(':zxing')
+//  compile project(':zxing')
   implementation externalAndroidSupportV4
   implementation externalAndroidAppCompatV7
   implementation externalOKHTTP
