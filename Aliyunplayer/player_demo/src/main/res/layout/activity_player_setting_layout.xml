@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -10,9 +11,9 @@
 
     <FrameLayout
         android:id="@+id/tab_layout"
-        android:layout_below="@id/layout_top"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_top">
 
         <ImageView
             android:id="@+id/iv_tab_line"
@@ -33,11 +34,13 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:visibility="gone">
+
                 <TextView
                     android:id="@+id/tv_vidplay"
-                    android:layout_height="match_parent"
                     android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:text="vid 播放"
@@ -58,10 +61,11 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_weight="1">
+
                 <TextView
                     android:id="@+id/tv_urlplay"
-                    android:layout_height="match_parent"
                     android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:text="URL 播放"
@@ -79,20 +83,19 @@
 
         </LinearLayout>
 
-
     </FrameLayout>
 
     <FrameLayout
         android:id="@+id/player_settings_content"
-        android:layout_below="@id/tab_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"  />
+        android:layout_height="match_parent"
+        android:layout_below="@id/tab_layout"/>
 
     <Button
-        android:id="@+id/btn_start_player"
         style="@style/btn_style"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/btn_start_player"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/start_player_ui" />
+        android:layout_alignParentBottom="true"
+        android:text="@string/start_player_ui"/>
 </RelativeLayout>

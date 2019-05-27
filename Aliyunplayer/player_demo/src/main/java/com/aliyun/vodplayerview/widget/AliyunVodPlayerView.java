@@ -265,9 +265,9 @@ public class AliyunVodPlayerView extends RelativeLayout implements ITheme {
         return mAliyunVodPlayer.getScreenBrightness();
     }
 
-    public void updateScreenShow() {
-        mControlView.updateDownloadBtn();
-    }
+    // public void updateScreenShow() {
+    //     mControlView.updateDownloadBtn();
+    // }
 
     /**
      * UI播放器支持的主题
@@ -742,11 +742,11 @@ public class AliyunVodPlayerView extends RelativeLayout implements ITheme {
                 }
 
                 changeScreenMode(targetMode);
-                if (mCurrentScreenMode == AliyunScreenMode.Full) {
-                    mControlView.showMoreButton();
-                } else if (mCurrentScreenMode == AliyunScreenMode.Small) {
-                    mControlView.hideMoreButton();
-                }
+                // if (mCurrentScreenMode == AliyunScreenMode.Full) {
+                //     mControlView.showMoreButton();
+                // } else if (mCurrentScreenMode == AliyunScreenMode.Small) {
+                //     mControlView.hideMoreButton();
+                // }
             }
         });
         //点击了标题栏的返回按钮
@@ -765,9 +765,9 @@ public class AliyunVodPlayerView extends RelativeLayout implements ITheme {
                     }
                 }
 
-                if (mCurrentScreenMode == AliyunScreenMode.Small) {
-                    mControlView.hideMoreButton();
-                }
+                // if (mCurrentScreenMode == AliyunScreenMode.Small) {
+                //     mControlView.hideMoreButton();
+                // }
             }
         });
 

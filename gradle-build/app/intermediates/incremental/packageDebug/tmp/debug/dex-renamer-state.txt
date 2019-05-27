@@ -1,4 +1,4 @@
-#Fri May 24 11:44:27 CST 2019
+#Mon May 27 11:33:33 CST 2019
 base.2=/Users/xiyuan/AliVideo/gradle-build/app/intermediates/transforms/dexMerger/debug/3
 base.1=/Users/xiyuan/AliVideo/gradle-build/app/intermediates/transforms/dexMerger/debug/8
 base.0=/Users/xiyuan/AliVideo/gradle-build/app/intermediates/transforms/dexMerger/debug/5

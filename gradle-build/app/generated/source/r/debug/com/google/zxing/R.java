@@ -784,17 +784,17 @@ public final class R {
         public static final int abc_select_dialog_material = 0x7f09001a;
         public static final int abc_tooltip = 0x7f09001b;
         public static final int activity_scanner = 0x7f090021;
-        public static final int notification_action = 0x7f090042;
-        public static final int notification_action_tombstone = 0x7f090043;
-        public static final int notification_template_custom_big = 0x7f09004a;
-        public static final int notification_template_icon_group = 0x7f09004b;
-        public static final int notification_template_part_chronometer = 0x7f09004f;
-        public static final int notification_template_part_time = 0x7f090050;
-        public static final int scanner_toolbar = 0x7f090054;
-        public static final int select_dialog_item_material = 0x7f090055;
-        public static final int select_dialog_multichoice_material = 0x7f090056;
-        public static final int select_dialog_singlechoice_material = 0x7f090057;
-        public static final int support_simple_spinner_dropdown_item = 0x7f090058;
+        public static final int notification_action = 0x7f090041;
+        public static final int notification_action_tombstone = 0x7f090042;
+        public static final int notification_template_custom_big = 0x7f090049;
+        public static final int notification_template_icon_group = 0x7f09004a;
+        public static final int notification_template_part_chronometer = 0x7f09004e;
+        public static final int notification_template_part_time = 0x7f09004f;
+        public static final int scanner_toolbar = 0x7f090053;
+        public static final int select_dialog_item_material = 0x7f090054;
+        public static final int select_dialog_multichoice_material = 0x7f090055;
+        public static final int select_dialog_singlechoice_material = 0x7f090056;
+        public static final int support_simple_spinner_dropdown_item = 0x7f090057;
     }
     public static final class menu {
         public static final int scanner_menu = 0x7f0a0000;

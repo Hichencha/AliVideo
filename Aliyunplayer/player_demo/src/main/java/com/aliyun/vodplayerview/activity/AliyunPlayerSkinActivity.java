@@ -347,7 +347,9 @@ public class AliyunPlayerSkinActivity extends BaseActivity {
   protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     super.onActivityResult(requestCode, resultCode, data);
     setPlaySource();
-    changePlayLocalSource(PlayParameter.PLAY_PARAM_URL, aliyunDownloadMediaInfo.getTitle());
+    // changePlayLocalSource(PlayParameter.PLAY_PARAM_URL, aliyunDownloadMediaInfo.getTitle());
+    changePlayLocalSource(PlayParameter.PLAY_PARAM_URL, "");
+
     loadPlayList();
   }
 
@@ -416,177 +418,178 @@ public class AliyunPlayerSkinActivity extends BaseActivity {
   /**
    * init 日志tab
    */
-     private void initLogView() {
-         tvLogs = (TextView)findViewById(R.id.tv_logs);
-         tvTabLogs = (TextView)findViewById(R.id.tv_tab_logs);
-         ivLogs = (ImageView)findViewById(R.id.iv_logs);
-         llClearLogs = (LinearLayout)findViewById(R.id.ll_clear_logs);
-         rlLogsContent = (RelativeLayout)findViewById(R.id.rl_logs_content);
+  private void initLogView() {
+    tvLogs = (TextView) findViewById(R.id.tv_logs);
+    tvTabLogs = (TextView) findViewById(R.id.tv_tab_logs);
+    ivLogs = (ImageView) findViewById(R.id.iv_logs);
+    llClearLogs = (LinearLayout) findViewById(R.id.ll_clear_logs);
+    rlLogsContent = (RelativeLayout) findViewById(R.id.rl_logs_content);
 
-         //日志Tab默认不选择
-         ivLogs.setActivated(false);
+    //日志Tab默认不选择
+    ivLogs.setActivated(false);
 
-         //日志清除
-         llClearLogs.setOnClickListener(new View.OnClickListener() {
-             @Override
-             public void onClick(View v) {
-                 logStrs.clear();
-                 tvLogs.setText("");
-             }
-         });
+    //日志清除
+    llClearLogs.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View v) {
+        logStrs.clear();
+        tvLogs.setText("");
+      }
+    });
 
-         tvTabLogs.setOnClickListener(new View.OnClickListener() {
+    tvTabLogs.setOnClickListener(new View.OnClickListener() {
 
-             @Override
-             public void onClick(View v) {
-                 currentTab = TAB_LOG;
-                 // TODO: 2018/4/10 show logs contents view
-                 ivLogs.setActivated(true);
-                 ivDownloadVideo.setActivated(false);
-                 ivVideoList.setActivated(false);
-                 rlLogsContent.setVisibility(View.VISIBLE);
-  //                downloadView.changeDownloadEditState(false);
-                 rlDownloadManagerContent.setVisibility(View.GONE);
-                 llVideoList.setVisibility(View.GONE);
-             }
-         });
-     }
+      @Override
+      public void onClick(View v) {
+        currentTab = TAB_LOG;
+        // TODO: 2018/4/10 show logs contents view
+        ivLogs.setActivated(true);
+        ivDownloadVideo.setActivated(false);
+        ivVideoList.setActivated(false);
+        rlLogsContent.setVisibility(View.VISIBLE);
+        //                downloadView.changeDownloadEditState(false);
+        rlDownloadManagerContent.setVisibility(View.GONE);
+        llVideoList.setVisibility(View.GONE);
+      }
+    });
+  }
 
   /**
    * init下载(离线视频)tab
    */
-     private void initDownloadView() {
-         tvTabDownloadVideo = (TextView)findViewById(R.id.tv_tab_download_video);
-         ivDownloadVideo = (ImageView)findViewById(R.id.iv_download_video);
-         rlDownloadManagerContent = (RelativeLayout)findViewById(R.id.rl_download_manager_content);
-         downloadView = (DownloadView)findViewById(R.id.download_view);
-         //离线下载Tab默认不选择
-         ivDownloadVideo.setActivated(false);
-         tvTabDownloadVideo.setOnClickListener(new View.OnClickListener() {
-             @Override
-             public void onClick(View v) {
-                 currentTab = TAB_DOWNLOAD_LIST;
-                 // TODO: 2018/4/10 show download content
-                 ivDownloadVideo.setActivated(true);
-                 ivLogs.setActivated(false);
-                 ivVideoList.setActivated(false);
-                 rlLogsContent.setVisibility(View.GONE);
-                 llVideoList.setVisibility(View.GONE);
-                 rlDownloadManagerContent.setVisibility(View.VISIBLE);
-                 //Drawable drawable = getResources().getDrawable(R.drawable.alivc_new_download);
-                 //drawable.setBounds(0, 0, drawable.getMinimumWidth(), drawable.getMinimumHeight());
+  private void initDownloadView() {
+    tvTabDownloadVideo = (TextView) findViewById(R.id.tv_tab_download_video);
+    ivDownloadVideo = (ImageView) findViewById(R.id.iv_download_video);
+    rlDownloadManagerContent = (RelativeLayout) findViewById(R.id.rl_download_manager_content);
+    downloadView = (DownloadView) findViewById(R.id.download_view);
+    //离线下载Tab默认不选择
+    ivDownloadVideo.setActivated(false);
+    tvTabDownloadVideo.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View v) {
+        currentTab = TAB_DOWNLOAD_LIST;
+        // TODO: 2018/4/10 show download content
+        ivDownloadVideo.setActivated(true);
+        ivLogs.setActivated(false);
+        ivVideoList.setActivated(false);
+        rlLogsContent.setVisibility(View.GONE);
+        llVideoList.setVisibility(View.GONE);
+        rlDownloadManagerContent.setVisibility(View.VISIBLE);
+        //Drawable drawable = getResources().getDrawable(R.drawable.alivc_new_download);
+        //drawable.setBounds(0, 0, drawable.getMinimumWidth(), drawable.getMinimumHeight());
 
-                 updateDownloadTaskTip();
-             }
-         });
-     }
+        updateDownloadTaskTip();
+      }
+    });
+  }
 
-     /**
-      * downloadView的配置 里面配置了需要下载的视频的信息, 事件监听等 抽取该方法的主要目的是, 横屏下download dialog的离线视频列表中也用到了downloadView, 而两者显示内容和数据是同步的,
-      * 所以在此进行抽取 AliyunPlayerSkinActivity.class#showAddDownloadView(DownloadVie view)中使用
-      *
-      * @param downloadView
-      */
-     private void downloadViewSetting(final DownloadView downloadView) {
-         downloadView.addAllDownloadMediaInfo(downloadDataProvider.getAllDownloadMediaInfo());
+  /**
+   * downloadView的配置 里面配置了需要下载的视频的信息, 事件监听等 抽取该方法的主要目的是, 横屏下download dialog的离线视频列表中也用到了downloadView, 而两者显示内容和数据是同步的,
+   * 所以在此进行抽取 AliyunPlayerSkinActivity.class#showAddDownloadView(DownloadVie view)中使用
+   *
+   * @param downloadView
+   */
+  private void downloadViewSetting(final DownloadView downloadView) {
+    downloadView.addAllDownloadMediaInfo(downloadDataProvider.getAllDownloadMediaInfo());
 
-         downloadView.setOnDownloadViewListener(new DownloadView.OnDownloadViewListener() {
-             @Override
-             public void onStop(AliyunDownloadMediaInfo downloadMediaInfo) {
-                 downloadManager.stopDownloadMedia(downloadMediaInfo);
-             }
+    downloadView.setOnDownloadViewListener(new DownloadView.OnDownloadViewListener() {
+      @Override
+      public void onStop(AliyunDownloadMediaInfo downloadMediaInfo) {
+        downloadManager.stopDownloadMedia(downloadMediaInfo);
+      }
 
-             @Override
-             public void onStart(AliyunDownloadMediaInfo downloadMediaInfo) {
-                 downloadManager.startDownloadMedia(downloadMediaInfo);
-             }
+      @Override
+      public void onStart(AliyunDownloadMediaInfo downloadMediaInfo) {
+        downloadManager.startDownloadMedia(downloadMediaInfo);
+      }
 
-             @Override
-             public void onDeleteDownloadInfo(final ArrayList<AlivcDownloadMediaInfo> alivcDownloadMediaInfos) {
-                 // 视频删除的dialog
-                 final AlivcDialog alivcDialog = new AlivcDialog(AliyunPlayerSkinActivity.this);
-                 alivcDialog.setDialogIcon(R.drawable.icon_delete_tips);
-                 alivcDialog.setMessage(getResources().getString(R.string.alivc_delete_confirm));
-                 alivcDialog.setOnConfirmclickListener(getResources().getString(R.string.alivc_dialog_sure),
-                     new AlivcDialog.onConfirmClickListener() {
-                         @Override
-                         public void onConfirm() {
-                             alivcDialog.dismiss();
-                             if (alivcDownloadMediaInfos != null && alivcDownloadMediaInfos.size() > 0) {
-                                 downloadView.deleteDownloadInfo();
-                                 if (dialogDownloadView != null) {
+      @Override
+      public void onDeleteDownloadInfo(final ArrayList<AlivcDownloadMediaInfo> alivcDownloadMediaInfos) {
+        // 视频删除的dialog
+        final AlivcDialog alivcDialog = new AlivcDialog(AliyunPlayerSkinActivity.this);
+        alivcDialog.setDialogIcon(R.drawable.icon_delete_tips);
+        alivcDialog.setMessage(getResources().getString(R.string.alivc_delete_confirm));
+        alivcDialog.setOnConfirmclickListener(getResources().getString(R.string.alivc_dialog_sure),
+            new AlivcDialog.onConfirmClickListener() {
+              @Override
+              public void onConfirm() {
+                alivcDialog.dismiss();
+                if (alivcDownloadMediaInfos != null && alivcDownloadMediaInfos.size() > 0) {
+                  downloadView.deleteDownloadInfo();
+                  if (dialogDownloadView != null) {
 
-                                     dialogDownloadView.deleteDownloadInfo();
-                                 }
-                                 downloadDataProvider.deleteAllDownloadInfo(alivcDownloadMediaInfos);
-                             } else {
-                                 FixedToastUtils.show(AliyunPlayerSkinActivity.this, "没有删除的视频选项...");
-                             }
-                         }
-                     });
-                 alivcDialog.setOnCancelOnclickListener(getResources().getString(R.string.alivc_dialog_cancle),
-                     new AlivcDialog.onCancelOnclickListener() {
-                         @Override
-                         public void onCancel() {
-                             alivcDialog.dismiss();
-                         }
-                     });
-                 alivcDialog.show();
-             }
-         });
+                    dialogDownloadView.deleteDownloadInfo();
+                  }
+                  downloadDataProvider.deleteAllDownloadInfo(alivcDownloadMediaInfos);
+                } else {
+                  FixedToastUtils.show(AliyunPlayerSkinActivity.this, "没有删除的视频选项...");
+                }
+              }
+            });
+        alivcDialog.setOnCancelOnclickListener(getResources().getString(R.string.alivc_dialog_cancle),
+            new AlivcDialog.onCancelOnclickListener() {
+              @Override
+              public void onCancel() {
+                alivcDialog.dismiss();
+              }
+            });
+        alivcDialog.show();
+      }
+    });
 
-         downloadView.setOnDownloadedItemClickListener(new DownloadView.OnDownloadItemClickListener() {
-             @Override
-             public void onDownloadedItemClick(int positin) {
+    downloadView.setOnDownloadedItemClickListener(new DownloadView.OnDownloadItemClickListener() {
+      @Override
+      public void onDownloadedItemClick(int positin) {
 
-                 ArrayList<AliyunDownloadMediaInfo> downloadedList = downloadDataProvider.getAllDownloadMediaInfo();
-                 //// 存入顺序和显示顺序相反,  所以进行倒序
+        ArrayList<AliyunDownloadMediaInfo> downloadedList = downloadDataProvider.getAllDownloadMediaInfo();
+        //// 存入顺序和显示顺序相反,  所以进行倒序
 
-                 ArrayList<AliyunDownloadMediaInfo> tempList = new ArrayList<>();
-                 int size = downloadedList.size();
-                 for (int i = 0; i < size; i++) {
-                     if (downloadedList.get(i).getProgress() == 100) {
-                         tempList.add(downloadedList.get(i));
-                     }
-                 }
+        ArrayList<AliyunDownloadMediaInfo> tempList = new ArrayList<>();
+        int size = downloadedList.size();
+        for (int i = 0; i < size; i++) {
+          if (downloadedList.get(i).getProgress() == 100) {
+            tempList.add(downloadedList.get(i));
+          }
+        }
 
-                 Collections.reverse(tempList);
-                 tempList.add(downloadedList.get(downloadedList.size() - 1));
-                 for (int i = 0; i < size; i++) {
-                     AliyunDownloadMediaInfo downloadMediaInfo = downloadedList.get(i);
-                     if (!tempList.contains(downloadMediaInfo)) {
-                         tempList.add(downloadMediaInfo);
-                     }
-                 }
+        Collections.reverse(tempList);
+        tempList.add(downloadedList.get(downloadedList.size() - 1));
+        for (int i = 0; i < size; i++) {
+          AliyunDownloadMediaInfo downloadMediaInfo = downloadedList.get(i);
+          if (!tempList.contains(downloadMediaInfo)) {
+            tempList.add(downloadMediaInfo);
+          }
+        }
 
-                 if (positin < 0) {
-                     FixedToastUtils.show(AliyunPlayerSkinActivity.this, "视频资源不存在");
-                     return;
-                 }
+        if (positin < 0) {
+          FixedToastUtils.show(AliyunPlayerSkinActivity.this, "视频资源不存在");
+          return;
+        }
 
-                 // 如果点击列表中的视频, 需要将类型改为vid
-                 AliyunDownloadMediaInfo aliyunDownloadMediaInfo = tempList.get(positin);
-                 PlayParameter.PLAY_PARAM_TYPE = "localSource";
-                 if (aliyunDownloadMediaInfo != null) {
-                     PlayParameter.PLAY_PARAM_URL = aliyunDownloadMediaInfo.getSavePath();
-                     mAliyunVodPlayerView.updateScreenShow();
-                     changePlayLocalSource(PlayParameter.PLAY_PARAM_URL, aliyunDownloadMediaInfo.getTitle());
-                 }
-             }
+        // 如果点击列表中的视频, 需要将类型改为vid
+        AliyunDownloadMediaInfo aliyunDownloadMediaInfo = tempList.get(positin);
+        PlayParameter.PLAY_PARAM_TYPE = "localSource";
+        if (aliyunDownloadMediaInfo != null) {
+          PlayParameter.PLAY_PARAM_URL = aliyunDownloadMediaInfo.getSavePath();
+          // mAliyunVodPlayerView.updateScreenShow();
+          // changePlayLocalSource(PlayParameter.PLAY_PARAM_URL, aliyunDownloadMediaInfo.getTitle());
+          changePlayLocalSource(PlayParameter.PLAY_PARAM_URL, "");
+        }
+      }
 
-             @Override
-             public void onDownloadingItemClick(ArrayList<AlivcDownloadMediaInfo> infos, int position) {
-                 AlivcDownloadMediaInfo alivcInfo = infos.get(position);
-                 AliyunDownloadMediaInfo aliyunDownloadInfo = alivcInfo.getAliyunDownloadMediaInfo();
-                 AliyunDownloadMediaInfo.Status status = aliyunDownloadInfo.getStatus();
-                 if (status == AliyunDownloadMediaInfo.Status.Error || status == AliyunDownloadMediaInfo.Status.Wait) {
-                     //downloadManager.removeDownloadMedia(aliyunDownloadInfo);
-                     downloadManager.startDownloadMedia(aliyunDownloadInfo);
-                 }
-             }
+      @Override
+      public void onDownloadingItemClick(ArrayList<AlivcDownloadMediaInfo> infos, int position) {
+        AlivcDownloadMediaInfo alivcInfo = infos.get(position);
+        AliyunDownloadMediaInfo aliyunDownloadInfo = alivcInfo.getAliyunDownloadMediaInfo();
+        AliyunDownloadMediaInfo.Status status = aliyunDownloadInfo.getStatus();
+        if (status == AliyunDownloadMediaInfo.Status.Error || status == AliyunDownloadMediaInfo.Status.Wait) {
+          //downloadManager.removeDownloadMedia(aliyunDownloadInfo);
+          downloadManager.startDownloadMedia(aliyunDownloadInfo);
+        }
+      }
 
-         });
-     }
+    });
+  }
 
   private static class MyPrepareListener implements IAliyunVodPlayer.OnPreparedListener {
 
@@ -735,76 +738,76 @@ public class AliyunPlayerSkinActivity extends BaseActivity {
    *
    * @param screenMode
    */
-     private void showAddDownloadView(AliyunScreenMode screenMode) {
-         if(aliyunDownloadMediaInfoList.get(0).getVid().equals(preparedVid)){
-             downloadDialog = new DownloadChoiceDialog(this, screenMode);
-             final AddDownloadView contentView = new AddDownloadView(this, screenMode);
-             contentView.onPrepared(aliyunDownloadMediaInfoList);
-             contentView.setOnViewClickListener(viewClickListener);
-             final View inflate = LayoutInflater.from(getApplicationContext()).inflate(
-                     R.layout.alivc_dialog_download_video, null, false);
-             dialogDownloadView = inflate.findViewById(R.id.download_view);
-             downloadDialog.setContentView(contentView);
-             downloadDialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
-                 @Override
-                 public void onDismiss(DialogInterface dialogInterface) {
-                 }
-             });
-             downloadDialog.show();
-             downloadDialog.setCanceledOnTouchOutside(true);
+  private void showAddDownloadView(AliyunScreenMode screenMode) {
+    if (aliyunDownloadMediaInfoList.get(0).getVid().equals(preparedVid)) {
+      downloadDialog = new DownloadChoiceDialog(this, screenMode);
+      final AddDownloadView contentView = new AddDownloadView(this, screenMode);
+      contentView.onPrepared(aliyunDownloadMediaInfoList);
+      contentView.setOnViewClickListener(viewClickListener);
+      final View inflate = LayoutInflater.from(getApplicationContext()).inflate(
+          R.layout.alivc_dialog_download_video, null, false);
+      dialogDownloadView = inflate.findViewById(R.id.download_view);
+      downloadDialog.setContentView(contentView);
+      downloadDialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
+        @Override
+        public void onDismiss(DialogInterface dialogInterface) {
+        }
+      });
+      downloadDialog.show();
+      downloadDialog.setCanceledOnTouchOutside(true);
 
-             if (screenMode == AliyunScreenMode.Full) {
-                 contentView.setOnShowVideoListLisener(new AddDownloadView.OnShowNativeVideoBtnClickListener() {
-                     @Override
-                     public void onShowVideo() {
-                         downloadViewSetting(dialogDownloadView);
-                         downloadDialog.setContentView(inflate);
-                     }
-                 });
-             }
-         }
-     }
+      if (screenMode == AliyunScreenMode.Full) {
+        contentView.setOnShowVideoListLisener(new AddDownloadView.OnShowNativeVideoBtnClickListener() {
+          @Override
+          public void onShowVideo() {
+            downloadViewSetting(dialogDownloadView);
+            downloadDialog.setContentView(inflate);
+          }
+        });
+      }
+    }
+  }
 
   private Dialog downloadDialog = null;
 
   private AliyunDownloadMediaInfo aliyunDownloadMediaInfo;
   private long currentDownloadIndex = 0;
-     /**
-      * 开始下载的事件监听
-      */
-     private AddDownloadView.OnViewClickListener viewClickListener = new AddDownloadView.OnViewClickListener() {
-         @Override
-         public void onCancel() {
-             if (downloadDialog != null) {
-                 downloadDialog.dismiss();
-             }
-         }
+  /**
+   * 开始下载的事件监听
+   */
+  private AddDownloadView.OnViewClickListener viewClickListener = new AddDownloadView.OnViewClickListener() {
+    @Override
+    public void onCancel() {
+      if (downloadDialog != null) {
+        downloadDialog.dismiss();
+      }
+    }
 
-         @Override
-         public void onDownload(AliyunDownloadMediaInfo info) {
-             if (downloadDialog != null) {
-                 downloadDialog.dismiss();
-             }
+    @Override
+    public void onDownload(AliyunDownloadMediaInfo info) {
+      if (downloadDialog != null) {
+        downloadDialog.dismiss();
+      }
 
-             aliyunDownloadMediaInfo = info;
+      aliyunDownloadMediaInfo = info;
 
-             if (Build.VERSION.SDK_INT > Build.VERSION_CODES.LOLLIPOP) {
-                 int permission = ContextCompat.checkSelfPermission(AliyunPlayerSkinActivity.this,
-                     Manifest.permission.WRITE_EXTERNAL_STORAGE);
-                 if (permission != PackageManager.PERMISSION_GRANTED) {
+      if (Build.VERSION.SDK_INT > Build.VERSION_CODES.LOLLIPOP) {
+        int permission = ContextCompat.checkSelfPermission(AliyunPlayerSkinActivity.this,
+            Manifest.permission.WRITE_EXTERNAL_STORAGE);
+        if (permission != PackageManager.PERMISSION_GRANTED) {
 
-                     ActivityCompat.requestPermissions(AliyunPlayerSkinActivity.this, PERMISSIONS_STORAGE,
-                         REQUEST_EXTERNAL_STORAGE);
+          ActivityCompat.requestPermissions(AliyunPlayerSkinActivity.this, PERMISSIONS_STORAGE,
+              REQUEST_EXTERNAL_STORAGE);
 
-                 } else {
-                     addNewInfo(info);
-                 }
-             } else {
-                 addNewInfo(info);
-             }
+        } else {
+          addNewInfo(info);
+        }
+      } else {
+        addNewInfo(info);
+      }
 
-         }
-     };
+    }
+  };
 
   private void addNewInfo(AliyunDownloadMediaInfo info) {
     if (downloadManager != null && info != null) {
@@ -818,144 +821,144 @@ public class AliyunPlayerSkinActivity extends BaseActivity {
 
   }
 
-     @Override
-     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
-                                            @NonNull int[] grantResults) {
-         if (requestCode == REQUEST_EXTERNAL_STORAGE) {
-             if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                 addNewInfo(aliyunDownloadMediaInfo);
-             } else {
-                 // Permission Denied
-                 FixedToastUtils.show(AliyunPlayerSkinActivity.this,"没有sd卡读写权限, 无法下载");
-             }
-             return;
-         }
-         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-     }
+  @Override
+  public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
+                                         @NonNull int[] grantResults) {
+    if (requestCode == REQUEST_EXTERNAL_STORAGE) {
+      if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+        addNewInfo(aliyunDownloadMediaInfo);
+      } else {
+        // Permission Denied
+        FixedToastUtils.show(AliyunPlayerSkinActivity.this, "没有sd卡读写权限, 无法下载");
+      }
+      return;
+    }
+    super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+  }
 
-     private static class MyDownloadInfoListener implements AliyunDownloadInfoListener {
+  private static class MyDownloadInfoListener implements AliyunDownloadInfoListener {
 
-         private WeakReference<AliyunPlayerSkinActivity> weakReference;
+    private WeakReference<AliyunPlayerSkinActivity> weakReference;
 
-         public MyDownloadInfoListener(AliyunPlayerSkinActivity aliyunPlayerSkinActivity) {
-             weakReference = new WeakReference<>(aliyunPlayerSkinActivity);
-         }
+    public MyDownloadInfoListener(AliyunPlayerSkinActivity aliyunPlayerSkinActivity) {
+      weakReference = new WeakReference<>(aliyunPlayerSkinActivity);
+    }
 
-         @Override
-         public void onPrepared(List<AliyunDownloadMediaInfo> infos) {
-             //TODO
-             Log.e("radish : ", "downLoad onPrepared: " + infos.get(0).getTitle());
-             preparedVid = infos.get(0).getVid();
-             Collections.sort(infos, new Comparator<AliyunDownloadMediaInfo>() {
-                 @Override
-                 public int compare(AliyunDownloadMediaInfo mediaInfo1, AliyunDownloadMediaInfo mediaInfo2) {
-                     if (mediaInfo1.getSize() > mediaInfo2.getSize()) {
-                         return 1;
-                     }
-                     if (mediaInfo1.getSize() < mediaInfo2.getSize()) {
-                         return -1;
-                     }
+    @Override
+    public void onPrepared(List<AliyunDownloadMediaInfo> infos) {
+      //TODO
+      Log.e("radish : ", "downLoad onPrepared: " + infos.get(0).getTitle());
+      preparedVid = infos.get(0).getVid();
+      Collections.sort(infos, new Comparator<AliyunDownloadMediaInfo>() {
+        @Override
+        public int compare(AliyunDownloadMediaInfo mediaInfo1, AliyunDownloadMediaInfo mediaInfo2) {
+          if (mediaInfo1.getSize() > mediaInfo2.getSize()) {
+            return 1;
+          }
+          if (mediaInfo1.getSize() < mediaInfo2.getSize()) {
+            return -1;
+          }
 
-                     if (mediaInfo1.getSize() == mediaInfo2.getSize()) {
-                         return 0;
-                     }
-                     return 0;
-                 }
-             });
-             AliyunPlayerSkinActivity aliyunPlayerSkinActivity = weakReference.get();
-             if(aliyunPlayerSkinActivity != null){
-                 aliyunPlayerSkinActivity.onDownloadPrepared(infos);
-             }
-         }
+          if (mediaInfo1.getSize() == mediaInfo2.getSize()) {
+            return 0;
+          }
+          return 0;
+        }
+      });
+      AliyunPlayerSkinActivity aliyunPlayerSkinActivity = weakReference.get();
+      if (aliyunPlayerSkinActivity != null) {
+        aliyunPlayerSkinActivity.onDownloadPrepared(infos);
+      }
+    }
 
-         @Override
-         public void onStart(AliyunDownloadMediaInfo info) {
-             AliyunPlayerSkinActivity aliyunPlayerSkinActivity = weakReference.get();
-             if(aliyunPlayerSkinActivity != null){
-                 FixedToastUtils.show(aliyunPlayerSkinActivity,"开始下载");
-                 //downloadView.addDownloadMediaInfo(info);
-                 //dbHelper.insert(info, DownloadDBHelper.DownloadState.STATE_DOWNLOADING);
-                 if (!aliyunPlayerSkinActivity.downloadDataProvider.hasAdded(info)) {
-                     aliyunPlayerSkinActivity.updateDownloadTaskTip();
-                     aliyunPlayerSkinActivity.downloadDataProvider.addDownloadMediaInfo(info);
-                 }
-             }
-         }
+    @Override
+    public void onStart(AliyunDownloadMediaInfo info) {
+      AliyunPlayerSkinActivity aliyunPlayerSkinActivity = weakReference.get();
+      if (aliyunPlayerSkinActivity != null) {
+        FixedToastUtils.show(aliyunPlayerSkinActivity, "开始下载");
+        //downloadView.addDownloadMediaInfo(info);
+        //dbHelper.insert(info, DownloadDBHelper.DownloadState.STATE_DOWNLOADING);
+        if (!aliyunPlayerSkinActivity.downloadDataProvider.hasAdded(info)) {
+          aliyunPlayerSkinActivity.updateDownloadTaskTip();
+          aliyunPlayerSkinActivity.downloadDataProvider.addDownloadMediaInfo(info);
+        }
+      }
+    }
 
-         @Override
-         public void onProgress(AliyunDownloadMediaInfo info, int percent) {
-             AliyunPlayerSkinActivity aliyunPlayerSkinActivity = weakReference.get();
-             if(aliyunPlayerSkinActivity != null){
-                 aliyunPlayerSkinActivity.downloadView.updateInfo(info);
-                 if (aliyunPlayerSkinActivity.dialogDownloadView != null) {
-                     aliyunPlayerSkinActivity.dialogDownloadView.updateInfo(info);
-                 }
-             }
-         }
+    @Override
+    public void onProgress(AliyunDownloadMediaInfo info, int percent) {
+      AliyunPlayerSkinActivity aliyunPlayerSkinActivity = weakReference.get();
+      if (aliyunPlayerSkinActivity != null) {
+        aliyunPlayerSkinActivity.downloadView.updateInfo(info);
+        if (aliyunPlayerSkinActivity.dialogDownloadView != null) {
+          aliyunPlayerSkinActivity.dialogDownloadView.updateInfo(info);
+        }
+      }
+    }
 
-         @Override
-         public void onStop(AliyunDownloadMediaInfo info) {
-             Log.d("yds100", "onStop");
-             AliyunPlayerSkinActivity aliyunPlayerSkinActivity = weakReference.get();
-             if(aliyunPlayerSkinActivity != null){
-                 aliyunPlayerSkinActivity.downloadView.updateInfo(info);
-                 if (aliyunPlayerSkinActivity.dialogDownloadView != null) {
-                     aliyunPlayerSkinActivity.dialogDownloadView.updateInfo(info);
-                 }
-                 //dbHelper.update(info, DownloadDBHelper.DownloadState.STATE_PAUSE);
-             }
-         }
+    @Override
+    public void onStop(AliyunDownloadMediaInfo info) {
+      Log.d("yds100", "onStop");
+      AliyunPlayerSkinActivity aliyunPlayerSkinActivity = weakReference.get();
+      if (aliyunPlayerSkinActivity != null) {
+        aliyunPlayerSkinActivity.downloadView.updateInfo(info);
+        if (aliyunPlayerSkinActivity.dialogDownloadView != null) {
+          aliyunPlayerSkinActivity.dialogDownloadView.updateInfo(info);
+        }
+        //dbHelper.update(info, DownloadDBHelper.DownloadState.STATE_PAUSE);
+      }
+    }
 
-         @Override
-         public void onCompletion(AliyunDownloadMediaInfo info) {
-             Log.d("yds100", "onCompletion");
-             AliyunPlayerSkinActivity aliyunPlayerSkinActivity = weakReference.get();
-             if(aliyunPlayerSkinActivity != null){
-                 aliyunPlayerSkinActivity.downloadView.updateInfoByComplete(info);
-                 if (aliyunPlayerSkinActivity.dialogDownloadView != null) {
-                     aliyunPlayerSkinActivity.dialogDownloadView.updateInfoByComplete(info);
-                 }
-                 aliyunPlayerSkinActivity.downloadDataProvider.addDownloadMediaInfo(info);
-                 //aliyunDownloadMediaInfoList.remove(info);
-             }
-         }
+    @Override
+    public void onCompletion(AliyunDownloadMediaInfo info) {
+      Log.d("yds100", "onCompletion");
+      AliyunPlayerSkinActivity aliyunPlayerSkinActivity = weakReference.get();
+      if (aliyunPlayerSkinActivity != null) {
+        aliyunPlayerSkinActivity.downloadView.updateInfoByComplete(info);
+        if (aliyunPlayerSkinActivity.dialogDownloadView != null) {
+          aliyunPlayerSkinActivity.dialogDownloadView.updateInfoByComplete(info);
+        }
+        aliyunPlayerSkinActivity.downloadDataProvider.addDownloadMediaInfo(info);
+        //aliyunDownloadMediaInfoList.remove(info);
+      }
+    }
 
-         @Override
-         public void onError(AliyunDownloadMediaInfo info, int code, String msg, String requestId) {
-             Log.d("yds100", "onError" + msg);
-             AliyunPlayerSkinActivity aliyunPlayerSkinActivity = weakReference.get();
-             if(aliyunPlayerSkinActivity != null){
-                 aliyunPlayerSkinActivity.downloadView.updateInfoByError(info);
-                 if (aliyunPlayerSkinActivity.dialogDownloadView != null) {
-                     aliyunPlayerSkinActivity.dialogDownloadView.updateInfoByError(info);
-                 }
-                 Message message = Message.obtain();
-                 Bundle bundle = new Bundle();
-                 bundle.putString(DOWNLOAD_ERROR_KEY, msg);
-                 message.setData(bundle);
-                 message.what = DOWNLOAD_ERROR;
-                 aliyunPlayerSkinActivity.playerHandler = new PlayerHandler(aliyunPlayerSkinActivity);
-                 aliyunPlayerSkinActivity.playerHandler.sendMessage(message);
-             }
-         }
+    @Override
+    public void onError(AliyunDownloadMediaInfo info, int code, String msg, String requestId) {
+      Log.d("yds100", "onError" + msg);
+      AliyunPlayerSkinActivity aliyunPlayerSkinActivity = weakReference.get();
+      if (aliyunPlayerSkinActivity != null) {
+        aliyunPlayerSkinActivity.downloadView.updateInfoByError(info);
+        if (aliyunPlayerSkinActivity.dialogDownloadView != null) {
+          aliyunPlayerSkinActivity.dialogDownloadView.updateInfoByError(info);
+        }
+        Message message = Message.obtain();
+        Bundle bundle = new Bundle();
+        bundle.putString(DOWNLOAD_ERROR_KEY, msg);
+        message.setData(bundle);
+        message.what = DOWNLOAD_ERROR;
+        aliyunPlayerSkinActivity.playerHandler = new PlayerHandler(aliyunPlayerSkinActivity);
+        aliyunPlayerSkinActivity.playerHandler.sendMessage(message);
+      }
+    }
 
-         @Override
-         public void onWait(AliyunDownloadMediaInfo outMediaInfo) {
-             Log.d("yds100", "onWait");
-         }
+    @Override
+    public void onWait(AliyunDownloadMediaInfo outMediaInfo) {
+      Log.d("yds100", "onWait");
+    }
 
-         @Override
-         public void onM3u8IndexUpdate(AliyunDownloadMediaInfo outMediaInfo, int index) {
-             Log.d("yds100", "onM3u8IndexUpdate");
-         }
-     }
+    @Override
+    public void onM3u8IndexUpdate(AliyunDownloadMediaInfo outMediaInfo, int index) {
+      Log.d("yds100", "onM3u8IndexUpdate");
+    }
+  }
 
   List<AliyunDownloadMediaInfo> aliyunDownloadMediaInfoList;
 
-     private void onDownloadPrepared(List<AliyunDownloadMediaInfo> infos) {
-         aliyunDownloadMediaInfoList = new ArrayList<>();
-         aliyunDownloadMediaInfoList.addAll(infos);
-     }
+  private void onDownloadPrepared(List<AliyunDownloadMediaInfo> infos) {
+    aliyunDownloadMediaInfoList = new ArrayList<>();
+    aliyunDownloadMediaInfoList.addAll(infos);
+  }
 
   private static class MyChangeQualityListener implements IAliyunVodPlayer.OnChangeQualityListener {
 
@@ -1013,23 +1016,23 @@ public class AliyunPlayerSkinActivity extends BaseActivity {
     }
   }
 
-     private static class MyRefreshStsCallback implements AliyunRefreshStsCallback {
+  private static class MyRefreshStsCallback implements AliyunRefreshStsCallback {
 
-         @Override
-         public AliyunVidSts refreshSts(String vid, String quality, String format, String title, boolean encript) {
-             VcPlayerLog.d("refreshSts ", "refreshSts , vid = " + vid);
-             //NOTE: 注意：这个不能启动线程去请求。因为这个方法已经在线程中调用了。
-             AliyunVidSts vidSts = VidStsUtil.getVidSts(vid);
-             if (vidSts == null) {
-                 return null;
-             } else {
-                 vidSts.setVid(vid);
-                 vidSts.setQuality(quality);
-                 vidSts.setTitle(title);
-                 return vidSts;
-             }
-         }
-     }
+    @Override
+    public AliyunVidSts refreshSts(String vid, String quality, String format, String title, boolean encript) {
+      VcPlayerLog.d("refreshSts ", "refreshSts , vid = " + vid);
+      //NOTE: 注意：这个不能启动线程去请求。因为这个方法已经在线程中调用了。
+      AliyunVidSts vidSts = VidStsUtil.getVidSts(vid);
+      if (vidSts == null) {
+        return null;
+      } else {
+        vidSts.setVid(vid);
+        vidSts.setQuality(quality);
+        vidSts.setTitle(title);
+        return vidSts;
+      }
+    }
+  }
 
   private void onStopped() {
     FixedToastUtils.show(AliyunPlayerSkinActivity.this.getApplicationContext(), R.string.log_play_stopped);
@@ -1144,9 +1147,9 @@ public class AliyunPlayerSkinActivity extends BaseActivity {
             .getLayoutParams();
         aliVcVideoViewLayoutParams.height = ViewGroup.LayoutParams.MATCH_PARENT;
         aliVcVideoViewLayoutParams.width = ViewGroup.LayoutParams.MATCH_PARENT;
-                       if (!isStrangePhone()) {
-                           aliVcVideoViewLayoutParams.topMargin = 0;
-                       }
+        if (!isStrangePhone()) {
+          aliVcVideoViewLayoutParams.topMargin = 0;
+        }
       }
 
     }
@@ -1257,10 +1260,10 @@ public class AliyunPlayerSkinActivity extends BaseActivity {
     inRequest = false;
 
     // 视频列表数据为0时, 加载列表
-           if (alivcVideoInfos != null && alivcVideoInfos.size() == 0) {
-               alivcVideoInfos.clear();
-               loadPlayList();
-           }
+    if (alivcVideoInfos != null && alivcVideoInfos.size() == 0) {
+      alivcVideoInfos.clear();
+      loadPlayList();
+    }
   }
 
   private static class MyOrientationChangeListener implements AliyunVodPlayerView.OnOrientationChangeListener {
